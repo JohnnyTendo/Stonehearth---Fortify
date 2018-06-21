@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 8,
+   "recipe_name" : "i18n(fortify_stable:entities.decorative.bridge.display_name)",
+   "description" : "i18n(fortify_stable:entities.decorative.bridge.description)",
+   "flavor" : "i18n(fortify_stable:entities.decorative.bridge.flavor)",
+   "portrait" : "/fortify_stable/entities/decorative/bridge/bridge.png",
+   "workshop": "stonehearth:carpenter:workbench", 
+   "level_requirement" : 1, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 6
+      }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:bridge"
+      }
+  ]
+}

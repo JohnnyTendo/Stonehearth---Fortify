@@ -1,0 +1,29 @@
+{
+   "type" : "recipe",
+   "work_units" : 24,
+   "recipe_name" : "i18n(fortify_stable:entities.construction.stone_portcullis_ornate.display_name)",
+   "description" : "i18n(fortify_stable:entities.construction.stone_portcullis_ornate.description)",
+   "flavor" : "i18n(fortify_stable:entities.construction.stone_portcullis_ornate.flavor)",
+   "portrait" : "/fortify_stable/entities/construction/stone_portcullis_ornate/stone_portcullis_ornate.png", 
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement" : 5, 
+   "ingredients": [
+      {
+         "material" : "stone resource",
+         "count" : 8
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      },
+	  {
+		 "uri" : "fortify_stable:rope",
+		 "count" : 2
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:stone_portcullis_ornate"
+      }
+  ]
+}

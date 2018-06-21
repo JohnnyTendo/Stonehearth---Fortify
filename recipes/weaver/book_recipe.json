@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "work_units" : 20,
+   "recipe_name" : "i18n(fortify_stable:entities.resources.book.display_name)",
+   "description" : "i18n(fortify_stable:entities.resources.book.description)",
+   "flavor" : "i18n(fortify_stable:entities.resources.book.flavor)",
+   "portrait" : "/fortify_stable/entities/resources/book/book.png",
+    "workshop": "stonehearth:weaver:workshop",
+   "level_requirement" : 1, 
+   "ingredients": [
+      {
+         "uri": "fortify_stable:paper",
+         "count" : 3
+      },
+	  {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count" : 1
+      },
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:book"
+      }
+  ]
+}

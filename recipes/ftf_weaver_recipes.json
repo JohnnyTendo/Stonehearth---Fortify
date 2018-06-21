@@ -1,0 +1,23 @@
+{
+   "craftable_recipes" : {
+         "crafting_materials": {
+         "name": "i18n(stonehearth:jobs.weaver.recipes.crafting_materials_name)",
+         "recipes": {
+            "rope": {
+               "recipe": "file(weaver/rope_recipe.json)"
+            },
+			"paper": {
+               "recipe": "file(weaver/paper_recipe.json)"
+            }
+         }
+      },
+	  "documents": {
+         "name": "Documents",
+         "recipes": {
+            "book": {
+               "recipe": "file(weaver/book_recipe.json)"
+            }
+         }
+      }
+   }
+}

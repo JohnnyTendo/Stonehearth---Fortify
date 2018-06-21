@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 4,
+   "recipe_name" : "i18n(fortify_stable:entities.decorative.palisade.display_name)",
+   "description" : "i18n(fortify_stable:entities.decorative.palisade.description)",
+   "flavor" : "i18n(fortify_stable:entities.decorative.palisade.flavor)",
+   "portrait" : "/fortify_stable/entities/decorative/palisade/palisade.png",
+   "workshop": "stonehearth:carpenter:workbench", 
+   "level_requirement" : 1, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 4
+      }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:palisade"
+      }
+  ]
+}

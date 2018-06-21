@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(living_wood.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 60
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortify_stable:entities.resources.living_wood.display_name)",
+         "description": "i18n(fortify_stable:entities.resources.living_wood.description)",
+         "icon": "file(living_wood.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": "stockpile_wood wood resource"
+      },
+      "stonehearth:appeal": {
+         "appeal": -1
+      }
+   }
+}

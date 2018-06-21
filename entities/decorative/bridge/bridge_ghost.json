@@ -1,0 +1,30 @@
+{
+	"type" : "entity",
+    "mixins" : "stonehearth:mixins:placed_object",
+    "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bridge.qb)"
+            ]
+         }
+      },
+	  "mob": {
+           "model_origin": { "x": 2, "y": 0, "z": 2.5 },
+           "region_origin": { "x": 0, "y": 0, "z": 0 },
+           "align_to_grid": [
+              "x",
+              "z"
+           ]
+        }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+	     "description": "i18n(fortify_stable:entities.decorative.bridge.description)",
+         "icon": "file(bridge.png)",
+         "display_name": "i18n(fortify_stable:entities.decorative.bridge.display_name)",
+         "material_tags": "wood decoration crafted stockpile_decoration",
+		 "category": "decoration"
+      }
+   }
+}

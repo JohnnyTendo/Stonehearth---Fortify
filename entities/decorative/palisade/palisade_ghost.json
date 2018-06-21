@@ -1,0 +1,30 @@
+{
+	"type" : "entity",
+    "mixins" : "stonehearth:mixins:placed_object",
+    "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(palisade.qb)"
+            ]
+         }
+      },
+	  "mob": {
+           "model_origin": { "x": -2, "y": 0, "z": 0 },
+           "region_origin": { "x": 0, "y": 0, "z": 0 },
+           "align_to_grid": [
+              "x",
+              "z"
+           ]
+        }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+	     "description": "i18n(fortify_stable:entities.decorative.palisade.description)",
+         "icon": "file(palisade.png)",
+         "display_name": "i18n(fortify_stable:entities.decorative.palisade.display_name)",
+         "material_tags": "wood defense crafted fence stockpile_defense",
+		 "category": "decoration"
+      }
+   }
+}

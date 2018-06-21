@@ -1,0 +1,35 @@
+{
+  "craftable_recipes" : {
+    "armor" : {
+		 "name": "i18n(stonehearth:jobs.blacksmith.recipes.armor_name)",
+         "recipes" : {
+			"stonegolem_armor" : {
+               "recipe" : "file(mason/stonegolem_armor_recipe.json)"
+            },
+			"stonegolem_helmet" : {
+               "recipe" : "file(mason/stonegolem_helmet_recipe.json)"
+            }
+         }
+    },    
+	"decorations" : {
+         "recipes" : {
+			 "cids_sword" : {
+               "recipe" : "file(mason/cids_sword_recipe.json)"
+            }
+         }
+    },
+    "building_parts" : {
+         "recipes" : {
+			"stone_portcullis" : {
+               "recipe" : "file(mason/stone_portcullis_recipe.json)"
+            },
+			"stone_portcullis_ornate" : {
+               "recipe" : "file(mason/stone_portcullis_ornate_recipe.json)"
+            },
+			"stone_drawbridge" : {
+               "recipe" : "file(mason/stone_drawbridge_recipe.json)"
+            }
+         }
+      }
+  }
+}

@@ -1,0 +1,50 @@
+{
+   "craftable_recipes" : {
+    "armor" : {
+		 "name": "i18n(stonehearth:jobs.blacksmith.recipes.armor_name)",
+         "recipes" : {
+			"entling_armor" : {
+               "recipe" : "file(carpenter/entling_armor_recipe.json)"
+            },
+			"entling_helmet" : {
+               "recipe" : "file(carpenter/entling_helmet_recipe.json)"
+            }
+         }
+    },
+    "building_parts" : {
+         "recipes" : {
+		    "drawbridge" : {
+               "recipe" : "file(carpenter/drawbridge_recipe.json)"
+            },
+            "drawgate" : {
+               "recipe" : "file(carpenter/wood_portcullis_recipe.json)"
+            },
+			"bridge" : {
+               "recipe" : "file(carpenter/bridge_recipe.json)"
+            },
+			"bridge_ornate" : {
+               "recipe" : "file(carpenter/bridge_ornate_recipe.json)"
+            },
+			"hatch" : {
+               "recipe" : "file(carpenter/hatch_recipe.json)"
+            },
+			"hatch2" : {
+               "recipe" : "file(carpenter/hatch2_recipe.json)"
+            },
+			"palisade" : {
+               "recipe" : "file(carpenter/palisade_recipe.json)"
+            }
+         }
+      },
+	  "furniture" : {
+         "recipes" : {
+			"bookcase" : {
+               "recipe" : "file(carpenter/bookcase_recipe.json)"
+            },
+			"secretDoor" : {
+               "recipe" : "file(carpenter/secretDoor_recipe.json)"
+            }
+         }
+      }
+   }
+}

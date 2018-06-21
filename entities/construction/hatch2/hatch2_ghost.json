@@ -1,0 +1,36 @@
+{
+	"type" : "entity",
+    "mixins": [
+	"fortify_stable/mixins/door/hatch2_ghost.json",
+	"stonehearth:mixins:placed_object"
+	],
+    "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hatch2.qb)"
+            ]
+         }
+      },
+	  "effect_list": {
+         "default": "file(/data/hatch2/animations/idle.json)"
+      },
+	  "mob": {
+           "model_origin": { "x": 2, "y": 0, "z": 3 },
+           "region_origin": { "x": 2, "y": 0, "z": 3 },
+           "align_to_grid": [
+              "x",
+			  "z"
+           ]
+        }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(fortify_stable:entities.construction.hatch.description)",
+         "icon": "file(hatch2.png)",
+         "display_name": "i18n(fortify_stable:entities.construction.hatch.display_name)",
+		 "material_tags": "wood defense crafted portal gate stockpile_defense",
+         "category": "door"
+      }
+   }
+}

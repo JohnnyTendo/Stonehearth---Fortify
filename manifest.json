@@ -1,0 +1,46 @@
+{
+	"info": {
+		"name": "Fortify",
+		"namespace": "fortify_stable",
+		"version": 3,
+		"author" : "JohnnyTendo"
+	},
+	"default_locale": "en",
+	"aliases" : {
+		"ancile" : "file(entities/equipment/ancile/ancile.json)",
+		"book" : "file(entities/resources/book/book.json)",
+		"bookcase" : "file(entities/decorative/bookcase/bookcase.json)",
+		"bridge" : "file(entities/decorative/bridge/bridge.json)",
+		"bridge_ornate" : "file(entities/decorative/bridge_ornate/bridge_ornate.json)",
+		"chain" : "file(entities/resources/chain/chain.json)",
+		"cids_sword" : "file(entities/decorative/cids_sword/cids_sword.json)",
+		"drawbridge" : "file(entities/construction/drawbridge/drawbridge.json)",
+		"entling_armor": "file(entities/equipment/entling_armor/entling_armor.json)",
+		"entling_helmet": "file(entities/equipment/entling_helmet/entling_helmet.json)",
+		"hatch": "file(entities/construction/hatch/hatch.json)",
+		"hatch2": "file(entities/construction/hatch2/hatch2.json)",
+		"living_stone" : "file(entities/resources/living_stone/living_stone.json)",
+		"living_wood" : "file(entities/resources/living_wood/living_wood.json)",
+		"palisade" : "file(entities/decorative/palisade/palisade.json)",
+		"paper" : "file(entities/resources/paper/paper.json)",
+		"rope" : "file(entities/resources/rope/rope.json)",
+		"secretDoor" : "file(entities/construction/secretDoor/secretDoor.json)",
+		"stone_drawbridge" : "file(entities/construction/stone_drawbridge/stone_drawbridge.json)",
+		"stonegolem_helmet" : "file(entities/equipment/stonegolem_helmet/stonegolem_helmet.json)",
+		"stonegolem_armor" : "file(entities/equipment/stonegolem_armor/stonegolem_armor.json)",
+		"stone_portcullis" : "file(entities/construction/stone_portcullis/stone_portcullis.json)",
+		"stone_portcullis_ornate" : "file(entities/construction/stone_portcullis_ornate/stone_portcullis_ornate.json)",
+		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)"
+	},
+	"mixintos" : {
+		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",
+		"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/ftf_carpenter_recipes.json)",
+		"stonehearth/jobs/mason/recipes/recipes.json" : "file(recipes/ftf_mason_recipes.json)",
+		"stonehearth/jobs/weaver/recipes/recipes.json" : "file(recipes/ftf_weaver_recipes.json)",
+		"stonehearth/entities/monsters/forest/entling/entling.json" : "file(mixins/add_entling_loot.json)",
+		"stonehearth/entities/monsters/forest/stone_golem/stone_golem.json" : "file(mixins/add_golem_loot.json)",
+		"stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem.json" : "file(mixins/add_golem_loot.json)"
+	}
+}
+
+

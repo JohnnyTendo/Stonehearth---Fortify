@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(paper.qb)"
+            ]
+         }
+      },
+	  "render_info": {
+           "scale": 0.05
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 5,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortify_stable:entities.resources.paper.display_name)",
+         "description": "i18n(fortify_stable:entities.resources.paper.description)",
+         "icon": "file(paper.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": "resource stockpile_refined_craftable"
+      }
+   }
+}

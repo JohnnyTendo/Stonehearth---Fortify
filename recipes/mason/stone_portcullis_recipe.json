@@ -1,0 +1,29 @@
+{
+   "type" : "recipe",
+   "work_units" : 12,
+   "recipe_name" : "i18n(fortify_stable:entities.construction.stone_portcullis.display_name)",
+   "description" : "i18n(fortify_stable:entities.construction.stone_portcullis.description)",
+   "flavor" : "i18n(fortify_stable:entities.construction.stone_portcullis.flavor)",
+   "portrait" : "/fortify_stable/entities/construction/stone_portcullis/stone_portcullis.png", 
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement" : 3, 
+   "ingredients": [
+      {
+         "material" : "stone resource",
+         "count" : 4
+      },
+	  {
+         "material" : "wood resource",
+         "count" : 3
+      },
+	  {
+		 "uri" : "fortify_stable:rope",
+		 "count" : 2
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:stone_portcullis"
+      }
+  ]
+}

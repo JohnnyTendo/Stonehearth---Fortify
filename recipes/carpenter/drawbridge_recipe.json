@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "work_units" : 16,
+   "recipe_name" : "i18n(fortify_stable:entities.construction.drawbridge.display_name)",
+   "description" : "i18n(fortify_stable:entities.construction.drawbridge.description)",
+   "flavor" : "i18n(fortify_stable:entities.construction.drawbridge.flavor)",
+   "portrait" : "/fortify_stable/entities/construction/drawbridge/drawbridge.png",
+   "workshop": "stonehearth:carpenter:toolbench", 
+   "level_requirement" : 4, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 4
+      },
+	  {
+		 "uri" : "fortify_stable:chain",
+		 "count" : 2
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:drawbridge"
+      }
+  ]
+}

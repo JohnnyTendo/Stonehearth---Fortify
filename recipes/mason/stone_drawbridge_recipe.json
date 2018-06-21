@@ -1,0 +1,29 @@
+{
+   "type" : "recipe",
+   "work_units" : 16,
+   "recipe_name" : "i18n(fortify_stable:entities.construction.stone_drawbridge.display_name)",
+   "description" : "i18n(fortify_stable:entities.construction.stone_drawbridge.description)",
+   "flavor" : "i18n(fortify_stable:entities.construction.stone_drawbridge.flavor)",
+   "portrait" : "/fortify_stable/entities/construction/stone_drawbridge/stone_drawbridge.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement" : 4, 
+   "ingredients": [
+      {
+         "material" : "stone resource",
+         "count" : 4
+      },
+	  {
+         "material" : "wood resource",
+         "count" : 4
+      },
+	  {
+		 "uri" : "fortify_stable:chain",
+		 "count" : 2
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:stone_drawbridge"
+      }
+  ]
+}

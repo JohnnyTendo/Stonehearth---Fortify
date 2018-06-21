@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 24,
+   "recipe_name" : "i18n(fortify_stable:entities.equipment.stonegolem_armor.display_name)",
+   "description" : "i18n(fortify_stable:entities.equipment.stonegolem_armor.description)",
+   "flavor" : "i18n(fortify_stable:entities.equipment.stonegolem_armor.flavor)",
+   "portrait" : "/fortify_stable/entities/equipment/stonegolem_armor/stonegolem_armor.png", 
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement" : 6, 
+   "ingredients": [
+	  {
+		 "uri" : "fortify_stable:living_stone",
+		 "count" : 6
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:stonegolem_armor"
+      }
+  ]
+}

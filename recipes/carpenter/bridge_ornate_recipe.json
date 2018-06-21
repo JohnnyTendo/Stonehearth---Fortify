@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "work_units" : 16,
+   "recipe_name" : "i18n(fortify_stable:entities.decorative.bridge_ornate.display_name)",
+   "description" : "i18n(fortify_stable:entities.decorative.bridge_ornate.description)",
+   "flavor" : "i18n(fortify_stable:entities.decorative.bridge_ornate.flavor)",
+   "portrait" : "/fortify_stable/entities/decorative/bridge_ornate/bridge_ornate.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement" : 5, 
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 8
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:bridge_ornate"
+      }
+  ]
+}

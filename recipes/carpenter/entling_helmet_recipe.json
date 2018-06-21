@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 18,
+   "recipe_name" : "i18n(fortify_stable:entities.equipment.entling_helmet.display_name)",
+   "description" : "i18n(fortify_stable:entities.equipment.entling_helmet.description)",
+   "flavor" : "i18n(fortify_stable:entities.equipment.entling_helmet.flavor)",
+   "portrait" : "/fortify_stable/entities/equipment/entling_helmet/entling_helmet.png", 
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement" : 6, 
+   "ingredients": [
+	  {
+		 "uri" : "fortify_stable:living_wood",
+		 "count" : 3
+	  }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:entling_helmet"
+      }
+  ]
+}
