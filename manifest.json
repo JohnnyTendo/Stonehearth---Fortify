@@ -9,6 +9,7 @@
 	"aliases" : {
 		"ancile" : "file(entities/equipment/ancile/ancile.json)",
 		"book" : "file(entities/resources/book/book.json)",
+		"book_knowledge" : "file(entities/consumables/book_knowledge/book_knowledge.json)",
 		"bookcase" : "file(entities/decorative/bookcase/bookcase.json)",
 		"bridge" : "file(entities/decorative/bridge/bridge.json)",
 		"bridge_ornate" : "file(entities/decorative/bridge_ornate/bridge_ornate.json)",
@@ -30,7 +31,8 @@
 		"stonegolem_armor" : "file(entities/equipment/stonegolem_armor/stonegolem_armor.json)",
 		"stone_portcullis" : "file(entities/construction/stone_portcullis/stone_portcullis.json)",
 		"stone_portcullis_ornate" : "file(entities/construction/stone_portcullis_ornate/stone_portcullis_ornate.json)",
-		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)"
+		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)",
+		"buffs:book_knowledge_buff": "file(data/buffs/book_knowledge/book_knowledge_buff.json)"
 	},
 	"mixintos" : {
 		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",

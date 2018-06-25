@@ -1,5 +1,17 @@
 {
+	"buffs": {
+		"book_knowledge_buff": {
+				"description": "Packed with knowledge.",
+				"display_name": "Book of Knowledge"
+		    }
+	},
     "entities": {
+		"consumables": {
+			"book_knowledge": {
+				"description": "A book packed with knowledge.",
+				"display_name": "Book of Knowledge"
+		    }
+		},
 		"construction": {
 			"drawbridge": {
 				"description": "A wooden bridge to draw.",

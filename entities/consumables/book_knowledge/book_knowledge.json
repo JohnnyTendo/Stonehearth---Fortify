@@ -1,0 +1,38 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "file(book_knowledge_ghost.json)"
+   ],
+   "type": "entity",
+   "components": {
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:use_consumable"
+         ]
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(book_knowledge_iconic.json)",
+         "ghost_form": "file(book_knowledge_ghost.json)",
+         "placeable_on_ground": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 11,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:consumable": {
+         "script": "stonehearth:consumables:scripts:buff_town",
+         "buff": "fortify_stable:buffs:book_knowledge_buff"
+      },
+      "stonehearth:catalog": {
+         "material_tags": "book consumable stockpile_consumable"
+      }
+   }
+}
