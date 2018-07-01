@@ -1,0 +1,20 @@
+{
+   "type" : "recipe",
+   "work_units" : 8,
+   "recipe_name" : "Trough",
+   "description" : "A little less mess.",
+   "flavor" : "Is it ever full?",
+   "portrait" : "/fortify_stable/entities/decorative/trough/input_trough.png",
+   "level_requirement" : 0,
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 4
+      }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:trough"
+      }
+  ]
+}

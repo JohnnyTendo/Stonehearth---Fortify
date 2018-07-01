@@ -32,7 +32,7 @@
          "buff": "fortify_stable:buffs:book_knowledge_buff"
       },
       "stonehearth:catalog": {
-         "material_tags": "book consumable stockpile_consumable"
+         "material_tags": "book book_written consumable stockpile_consumable"
       }
    }
 }

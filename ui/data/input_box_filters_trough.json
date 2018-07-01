@@ -1,0 +1,31 @@
+{
+   "type": "index",
+	"stockpile": {
+		"Animal feed": {
+			"display_name": "Animal feed",
+			"filter": "animal_feed",
+			"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
+			"ordinal": 1,
+			"categories": {
+				"sheep_feed": {
+				"ordinal": 1,
+				"display_name": "i18n(stonehearth:entities.food.sheep_feed.sheep_feed_ground.display_name)",
+				"icon": "/stonehearth/entities/food/sheep_feed/sheep_feed.png",
+				"filter": "sheep_feed"
+				},
+				"rabbit_feed": {
+				"ordinal": 2,
+				"display_name": "i18n(stonehearth:entities.food.rabbit_feed.rabbit_feed_ground.display_name)",
+				"icon": "/stonehearth/entities/food/rabbit_feed/rabbit_feed.png",
+				"filter": "rabbit_feed"
+				},
+				"poyo_feed": {
+				"ordinal": 3,
+				"display_name": "i18n(stonehearth:entities.food.poyo_feed.poyo_feed_ground.display_name)",
+				"icon": "/stonehearth/entities/food/poyo_feed/poyo_feed/poyo_feed.png",
+				"filter": "poyo_feed_bag"
+				}
+			}
+		}
+	}
+}

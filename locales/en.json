@@ -10,7 +10,7 @@
 			"book_knowledge": {
 				"description": "A book packed with knowledge.",
 				"display_name": "Book of Knowledge"
-		    }
+		   }
 		},
 		"construction": {
 			"drawbridge": {
@@ -132,6 +132,6 @@
 				"display_name": "Rope",
 				"flavor": "Lemon Lime On time Singing 1, 2..."
 		    }
-		}			
+		}
     }
 }

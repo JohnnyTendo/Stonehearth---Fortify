@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "work_units" : 20,
+   "recipe_name" : "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
+   "description" : "i18n(fortify_stable:entities.consumables.book_knowledge.description)",
+   "flavor" : "i18n(fortify_stable:entities.consumables.book_knowledge.flavor)",
+   "portrait" : "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
+    "workshop": "stonehearth:weaver:workshop",
+   "level_requirement" : 1,
+   "ingredients": [
+      {
+         "uri": "fortify_stable:book",
+         "count" : 1
+      },
+	  {
+         "uri": "stonehearth:resources:varanus_skin",
+         "count" : 1
+      },
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:book_knowledge"
+      }
+  ]
+}

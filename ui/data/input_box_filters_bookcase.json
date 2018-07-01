@@ -1,0 +1,19 @@
+{
+   "type": "index",
+	"stockpile": {
+		"books": {
+			"display_name": "Books",
+			"filter": "book",
+			"icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
+			"ordinal": 1,
+			"categories": {
+				"books": {
+				"ordinal": 1,
+				"display_name": "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
+				"icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
+				"filter": "book_written"
+				}
+			}
+		}
+	}
+}

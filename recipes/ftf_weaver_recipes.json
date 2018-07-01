@@ -16,6 +16,9 @@
          "recipes": {
             "book": {
                "recipe": "file(weaver/book_recipe.json)"
+            },
+            "book_knowledge": {
+               "recipe": "file(weaver/book_knowledge_recipe.json)"
             }
          }
       }

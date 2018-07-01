@@ -45,6 +45,13 @@
                "recipe" : "file(carpenter/secretDoor_recipe.json)"
             }
          }
+      },
+      "storage" : {
+    "recipes" : {
+      "trough" : {
+        "recipe" : "file(carpenter/input_trough_recipe.json)"
       }
+    }
+  }
    }
 }
