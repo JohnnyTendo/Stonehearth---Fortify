@@ -10,12 +10,15 @@
                "recipe" : "file(mason/stonegolem_helmet_recipe.json)"
             }
          }
-    },    
+    },
 	"decorations" : {
          "recipes" : {
-			 "cids_sword" : {
-               "recipe" : "file(mason/cids_sword_recipe.json)"
-            }
+			        "cids_sword" : {
+                "recipe" : "file(mason/cids_sword_recipe.json)"
+              },
+              "fire_bowl" : {
+                "recipe" : "file(mason/fire_bowl_recipe.json)"
+              }
          }
     },
     "building_parts" : {

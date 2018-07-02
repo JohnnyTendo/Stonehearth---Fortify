@@ -19,6 +19,7 @@
 		"drawbridge" : "file(entities/construction/drawbridge/drawbridge.json)",
 		"entling_armor": "file(entities/equipment/entling_armor/entling_armor.json)",
 		"entling_helmet": "file(entities/equipment/entling_helmet/entling_helmet.json)",
+		"fire_bowl" : "file(entities/decorative/fire_bowl/fire_bowl.json)",
 		"hatch": "file(entities/construction/hatch/hatch.json)",
 		"hatch2": "file(entities/construction/hatch2/hatch2.json)",
 		"trough" : "file(entities/decorative/trough/input_trough.json)",
@@ -34,7 +35,9 @@
 		"stone_portcullis" : "file(entities/construction/stone_portcullis/stone_portcullis.json)",
 		"stone_portcullis_ornate" : "file(entities/construction/stone_portcullis_ornate/stone_portcullis_ornate.json)",
 		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)",
-		"buffs:book_knowledge_buff": "file(data/buffs/book_knowledge/book_knowledge_buff.json)"
+		"buffs:book_knowledge_buff": "file(data/buffs/book_knowledge/book_knowledge_buff.json)",
+
+		"effects:fire_bowl_effect": "file(data/effects/fire_bowl_effect.json)"
 	},
 	"mixintos" : {
 		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",
