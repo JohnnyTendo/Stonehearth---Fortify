@@ -1,0 +1,27 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.workbenches_name)",
+         "recipes": {
+            "herbalist_workbench": {
+               "recipe": "file(herbalist_workbench_recipe.json)"
+            }
+         }
+      },
+	  "documents": {
+         "name": "Documents",
+         "recipes": {
+            "book": {
+               "recipe": "file(book_recipe.json)"
+            },
+            "book_knowledge": {
+               "recipe": "file(book_knowledge_recipe.json)"
+            },
+			      "paper": {
+               "recipe": "file(paper_recipe.json)"
+            }
+         }
+      }
+   }
+}

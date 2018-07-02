@@ -5,6 +5,19 @@
 				"display_name": "Book of Knowledge"
 		    }
 	},
+	"jobs": {
+		"scholar": {
+			"scholar_description": {
+				"disply_name": "Scholar",
+				"description": "The Scholar can write down the knowledge he gathers to let others benefit.",
+				"requirements": "requires a Scholar's Staff"
+			},
+			"scholar_staff": {
+				"disply_name": "Scholar's Staff",
+				"description": "The Staff of a Scholar."
+			}
+		}
+	},
     "entities": {
 		"consumables": {
 			"book_knowledge": {

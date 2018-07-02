@@ -5,20 +5,6 @@
          "recipes": {
             "rope": {
                "recipe": "file(weaver/rope_recipe.json)"
-            },
-			"paper": {
-               "recipe": "file(weaver/paper_recipe.json)"
-            }
-         }
-      },
-	  "documents": {
-         "name": "Documents",
-         "recipes": {
-            "book": {
-               "recipe": "file(weaver/book_recipe.json)"
-            },
-            "book_knowledge": {
-               "recipe": "file(weaver/book_knowledge_recipe.json)"
             }
          }
       }

@@ -29,10 +29,7 @@
                "items": {
                   "oak_log": {
                      "uri": "stonehearth:resources:wood:oak_log"
-                  },
-				          "book": {
-                     "uri": "fortify_stable:book"
-                   }
+                  }
                 }
             }
          }

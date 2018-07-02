@@ -37,9 +37,14 @@
 		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)",
 		"buffs:book_knowledge_buff": "file(data/buffs/book_knowledge/book_knowledge_buff.json)",
 
-		"effects:fire_bowl_effect": "file(data/effects/fire_bowl_effect.json)"
+		"effects:fire_bowl_effect": "file(data/effects/fire_bowl_effect.json)",
+
+		"jobs:scholar": "file(jobs/scholar/scholar_description.json)",
+		"jobs:scholar:staff": "file(jobs/scholar/scholar_staff/scholar_staff.json)",
+		"jobs:scholar:talisman": "file(jobs/scholar/scholar_staff/scholar_staff_talisman.json)"
 	},
 	"mixintos" : {
+		"stonehearth/jobs/index.json": "file(jobs/index.json)",
 		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",
 		"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/ftf_carpenter_recipes.json)",
 		"stonehearth/jobs/mason/recipes/recipes.json" : "file(recipes/ftf_mason_recipes.json)",

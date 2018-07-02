@@ -3,7 +3,7 @@
    "type": "entity",
    "components": {
       "render_info": {
-         "material": "materials/shiny.material.json"
+         "scale": 0.05
       },
       "model_variants": {
          "default": {
@@ -29,7 +29,7 @@
          "icon": "file(book.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "resource stockpile_refined_craftable"
+         "material_tags": "book resource stockpile_refined_craftable"
       }
    }
 }

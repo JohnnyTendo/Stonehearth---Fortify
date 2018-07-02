@@ -4,15 +4,21 @@
 		"books": {
 			"display_name": "Books",
 			"filter": "book",
-			"icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
+			"icon": "/fortify_stable/entities/resources/book/book.png",
 			"ordinal": 1,
 			"categories": {
-				"books": {
+				"book": {
 				"ordinal": 1,
-				"display_name": "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
-				"icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
-				"filter": "book_written"
-				}
+				"display_name": "i18n(fortify_stable:entities.resources.book.display_name)",
+				"icon": "/fortify_stable/entities/resources/book/book.png",
+				"filter": "book"
+      },
+      "book_written": {
+      "ordinal": 2,
+      "display_name": "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
+      "icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
+      "filter": "book_written"
+      }
 			}
 		}
 	}

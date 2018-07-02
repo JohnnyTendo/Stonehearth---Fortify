@@ -1,0 +1,64 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "scholar",
+   "display_order": 3,
+   "alias": "fortify_stable:jobs:scholar",
+   "display_name": "i18n(fortify_stable:jobs.scholar.scholar_description.display_name)",
+   "controller": "stonehearth:class:herbalist",
+   "description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
+   "requirements": "i18n(fortify_stable:jobs.scholar.scholar_description.requirements)",
+   "abilities": "file(herbalist_abilities)",
+   "equipment": {
+      "torso": "file(scholar_outfit)",
+      "mainhand": "fortify_stable:jobs:scholar:staff"
+   },
+   "roles": "herbalist_job crafter",
+   "talisman_uri": "fortify_stable:scholar:talisman",
+   "default_stance": "passive",
+   "icon": "file(images/icon.png)",
+   "promotion_activity_name": "promote_herbalist",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:crafting",
+      "stonehearth:task_groups:town_alert"
+   ],
+   "crafter": {
+      "work_effect": "herbalist_grind",
+      "recipe_list": "/fortify_stable/jobs/scholar/recipes/recipes.json"
+   },
+   "workshop": {
+      "name": "i18n(fortify_stable:jobs.scholar.scholar_description.display_name)",
+      "description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
+      "long_description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
+      "portrait": "file(/jobs/herbalist/herbalist_workbench/herbalist_workbench.png)",
+      "workbench_type": "stonehearth:herbalist:workbench",
+      "skin_class": "herbalist",
+      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
+   "parent_job": "stonehearth:jobs:herbalist",
+   "parent_level_requirement": 3,
+   "xp_rewards": {
+      "craft_level_0": 8,
+      "craft_level_1": 10,
+      "craft_level_2": 12,
+      "craft_level_3": 14,
+      "craft_level_4": 16,
+      "craft_level_5": 19,
+      "craft_level_6": 22
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": { },
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {}
+   }
+}
