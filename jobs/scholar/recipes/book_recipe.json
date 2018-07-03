@@ -5,8 +5,8 @@
    "description" : "i18n(fortify_stable:entities.resources.book.description)",
    "flavor" : "i18n(fortify_stable:entities.resources.book.flavor)",
    "portrait" : "/fortify_stable/entities/resources/book/book.png",
-    "workshop": "stonehearth:weaver:workshop",
-   "level_requirement" : 1, 
+    "workshop": "fortify_stable:jobs:scholar:workbench",
+   "level_requirement" : 1,
    "ingredients": [
       {
          "uri": "fortify_stable:paper",

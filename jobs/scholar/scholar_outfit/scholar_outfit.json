@@ -7,13 +7,13 @@
          "default": {
             "layer": "clothing",
             "models": [
-               "file(herbalist_outfit.qb)"
+               "file(scholar_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "models": [
-               "file(herbalist_outfit_female.qb)"
+               "file(scholar_outfit_female.qb)"
             ]
          }
       },
@@ -26,7 +26,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
          "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
-         "icon": "file(herbalist_outfit.png)",
+         "icon": "file(scholar_outfit.png)",
          "material_tags": "cloth"
       }
    }

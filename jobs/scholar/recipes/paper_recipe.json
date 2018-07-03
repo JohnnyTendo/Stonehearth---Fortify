@@ -5,8 +5,7 @@
    "description" : "i18n(fortify_stable:entities.resources.paper.description)",
    "flavor" : "i18n(fortify_stable:entities.resources.paper.flavor)",
    "portrait" : "/fortify_stable/entities/resources/paper/paper.png",
-    "workshop": "stonehearth:weaver:loom",
-   "level_requirement" : 1, 
+   "level_requirement" : 1,
    "ingredients": [
       {
          "material": "thread resource",

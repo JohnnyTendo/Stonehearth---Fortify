@@ -33,25 +33,35 @@
             },
 			"palisade" : {
                "recipe" : "file(carpenter/palisade_recipe.json)"
+            },
+			"parapet" : {
+               "recipe" : "file(carpenter/parapet_recipe.json)"
             }
          }
       },
 	  "furniture" : {
          "recipes" : {
-			"bookcase" : {
-               "recipe" : "file(carpenter/bookcase_recipe.json)"
-            },
-			"secretDoor" : {
-               "recipe" : "file(carpenter/secretDoor_recipe.json)"
-            }
+			        "bookcase" : {
+                "recipe" : "file(carpenter/bookcase_recipe.json)"
+              },
+			        "secretDoor" : {
+                 "recipe" : "file(carpenter/secretDoor_recipe.json)"
+              }
          }
       },
+      "tools": {
+        "recipes": {
+          "scholar_staff": {
+            "recipe": "file(carpenter/scholar_staff_recipe.json)"
+          }
+        }
+      },
       "storage" : {
-    "recipes" : {
-      "trough" : {
-        "recipe" : "file(carpenter/input_trough_recipe.json)"
+        "recipes" : {
+          "trough" : {
+            "recipe" : "file(carpenter/input_trough_recipe.json)"
+          }
+        }
       }
-    }
-  }
    }
 }

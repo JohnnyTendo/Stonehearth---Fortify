@@ -1,0 +1,21 @@
+{
+   "type" : "recipe",
+   "work_units" : 8,
+   "recipe_name" : "i18n(fortify_stable:entities.decorative.parapet.display_name)",
+   "description" : "i18n(fortify_stable:entities.decorative.parapet.description)",
+   "flavor" : "i18n(fortify_stable:entities.decorative.parapet.flavor)",
+   "portrait" : "/fortify_stable/entities/decorative/parapet/parapet.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement" : 1,
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      }
+  ],
+  "produces": [
+      {
+         "item":"fortify_stable:parapet"
+      }
+  ]
+}

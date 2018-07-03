@@ -1,19 +1,15 @@
 {
    "type" : "recipe",
-   "work_units" : 8,
+   "work_units" : 14,
    "recipe_name" : "i18n(fortify_stable:entities.decorative.bookcase.display_name)",
    "description": "i18n(fortify_stable:entities.decorative.bookcase.description)",
    "flavor" : "i18n(fortify_stable:entities.decorative.bookcase.flavor)",
    "portrait" : "/fortify_stable/entities/decorative/bookcase/bookcase.png",
-   "workshop": "stonehearth:carpenter:toolbench", 
-   "level_requirement" : 3, 
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement" : 3,
    "ingredients": [
       {
          "material" : "wood resource",
-         "count" : 2
-      },
-	  {
-         "uri" : "fortify_stable:book",
          "count" : 4
       }
   ],

@@ -10,11 +10,11 @@
    "requirements": "i18n(fortify_stable:jobs.scholar.scholar_description.requirements)",
    "abilities": "file(herbalist_abilities)",
    "equipment": {
-      "torso": "file(scholar_outfit)",
+      "torso": "file(scholar_outfit/scholar_outfit.json)",
       "mainhand": "fortify_stable:jobs:scholar:staff"
    },
    "roles": "herbalist_job crafter",
-   "talisman_uri": "fortify_stable:scholar:talisman",
+   "talisman_uri": "fortify_stable:jobs:scholar:talisman",
    "default_stance": "passive",
    "icon": "file(images/icon.png)",
    "promotion_activity_name": "promote_herbalist",
@@ -32,11 +32,11 @@
       "recipe_list": "/fortify_stable/jobs/scholar/recipes/recipes.json"
    },
    "workshop": {
-      "name": "i18n(fortify_stable:jobs.scholar.scholar_description.display_name)",
-      "description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
-      "long_description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
-      "portrait": "file(/jobs/herbalist/herbalist_workbench/herbalist_workbench.png)",
-      "workbench_type": "stonehearth:herbalist:workbench",
+      "name": "i18n(fortify_stable:jobs.scholar.scholar_workbench.display_name)",
+      "description": "i18n(fortify_stable:jobs.scholar.scholar_workbench.description)",
+      "long_description": "i18n(fortify_stable:jobs.scholar.scholar_workbench.description)",
+      "portrait": "file(scholar_workbench/scholar_workbench.png)",
+      "workbench_type": "jobs:scholar:workbench",
       "skin_class": "herbalist",
       "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
       "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"

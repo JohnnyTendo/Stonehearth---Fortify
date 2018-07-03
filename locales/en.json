@@ -8,13 +8,18 @@
 	"jobs": {
 		"scholar": {
 			"scholar_description": {
-				"disply_name": "Scholar",
+				"display_name": "Scholar",
 				"description": "The Scholar can write down the knowledge he gathers to let others benefit.",
-				"requirements": "requires a Scholar's Staff"
+				"requirements": "Crafted by Carpenter",
+				"required_job_text": "Requires Scholar"
 			},
 			"scholar_staff": {
-				"disply_name": "Scholar's Staff",
+				"display_name": "Scholar's Staff",
 				"description": "The Staff of a Scholar."
+			},
+			"scholar_workbench": {
+				"display_name": "Scholar Workbench",
+				"description": "A Scholars desk."
 			}
 		}
 	},
@@ -87,7 +92,12 @@
 				"description": "Low-Tech Town protection.",
 				"display_name": "Palisade",
 				"flavor": "To keep 'em out."
-		    }
+		    },
+				"parapet": {
+					"description": "Or just call it railing.",
+					"display_name": "Parapet",
+					"flavor": "Don't worry to fall anymore."
+			    }
 		},
 		"equipment": {
 			"ancile": {

@@ -29,7 +29,7 @@
          "icon": "file(book.png)",
          "is_item": true,
          "category": "refined",
-         "material_tags": "book resource stockpile_refined_craftable"
+         "material_tags": "book book_unwritten resource stockpile_refined_craftable"
       }
    }
 }

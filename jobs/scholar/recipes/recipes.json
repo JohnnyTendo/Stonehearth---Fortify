@@ -4,8 +4,8 @@
          "ordinal": 1,
          "name": "i18n(stonehearth:jobs.herbalist.recipes.workbenches_name)",
          "recipes": {
-            "herbalist_workbench": {
-               "recipe": "file(herbalist_workbench_recipe.json)"
+            "scholar_workbench": {
+               "recipe": "file(scholar_workbench_recipe.json)"
             }
          }
       },

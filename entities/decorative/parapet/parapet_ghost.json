@@ -1,0 +1,26 @@
+{
+	"type" : "entity",
+    "mixins" : "stonehearth:mixins:placed_object",
+    "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(parapet.qb)"
+            ]
+         }
+      },
+	  "mob": {
+           "model_origin": { "x": 0, "y": 0, "z": 0 },
+           "region_origin": { "x": 0, "y": 0, "z": 0 }
+        }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+	     "description": "i18n(fortify_stable:entities.decorative.parapet.description)",
+         "icon": "file(parapet.png)",
+         "display_name": "i18n(fortify_stable:entities.decorative.parapet.display_name)",
+         "material_tags": "wood decoration crafted stockpile_decoration",
+		 "category": "decoration"
+      }
+   }
+}

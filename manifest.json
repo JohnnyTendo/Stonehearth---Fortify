@@ -26,6 +26,7 @@
 		"living_stone" : "file(entities/resources/living_stone/living_stone.json)",
 		"living_wood" : "file(entities/resources/living_wood/living_wood.json)",
 		"palisade" : "file(entities/decorative/palisade/palisade.json)",
+		"parapet" : "file(entities/decorative/parapet/parapet.json)",
 		"paper" : "file(entities/resources/paper/paper.json)",
 		"rope" : "file(entities/resources/rope/rope.json)",
 		"secretDoor" : "file(entities/construction/secretDoor/secretDoor.json)",
@@ -41,10 +42,12 @@
 
 		"jobs:scholar": "file(jobs/scholar/scholar_description.json)",
 		"jobs:scholar:staff": "file(jobs/scholar/scholar_staff/scholar_staff.json)",
-		"jobs:scholar:talisman": "file(jobs/scholar/scholar_staff/scholar_staff_talisman.json)"
+		"jobs:scholar:talisman": "file(jobs/scholar/scholar_staff/scholar_staff_talisman.json)",
+		"jobs:scholar:workbench": "file(jobs/scholar/scholar_workbench/scholar_workbench.json)"
 	},
 	"mixintos" : {
 		"stonehearth/jobs/index.json": "file(jobs/index.json)",
+		"stonehearth/data/ui/start_menu.json": "file(ui/start_menu.json)",
 		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",
 		"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/ftf_carpenter_recipes.json)",
 		"stonehearth/jobs/mason/recipes/recipes.json" : "file(recipes/ftf_mason_recipes.json)",

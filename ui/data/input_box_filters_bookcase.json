@@ -11,7 +11,7 @@
 				"ordinal": 1,
 				"display_name": "i18n(fortify_stable:entities.resources.book.display_name)",
 				"icon": "/fortify_stable/entities/resources/book/book.png",
-				"filter": "book"
+				"filter": "book_unwritten"
       },
       "book_written": {
       "ordinal": 2,

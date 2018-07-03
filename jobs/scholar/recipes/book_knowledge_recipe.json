@@ -5,7 +5,7 @@
    "description" : "i18n(fortify_stable:entities.consumables.book_knowledge.description)",
    "flavor" : "i18n(fortify_stable:entities.consumables.book_knowledge.flavor)",
    "portrait" : "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
-    "workshop": "stonehearth:weaver:workshop",
+    "workshop": "fortify_stable:jobs:scholar:workbench",
    "level_requirement" : 1,
    "ingredients": [
       {
