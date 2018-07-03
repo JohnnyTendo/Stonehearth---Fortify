@@ -36,7 +36,7 @@
       },
       "stonehearth:storage": {
          "type": "input_crate",
-         "capacity": 12,
+         "capacity": 18,
          "render_contents": true,
          "filter_list": "fortify_stable/ui/data/input_box_filters_bookcase.json",
          "is_single_filter": true
