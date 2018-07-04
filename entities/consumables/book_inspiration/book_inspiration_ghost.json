@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.1 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(book_inspiration.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortify_stable:entities.consumables.book_inspiration.display_name)",
+         "description": "i18n(fortify_stable:entities.consumables.book_inspiration.description)",
+         "icon": "file(book_inspiration.png)",
+         "category": "book book_written consumable"
+      }
+   }
+}

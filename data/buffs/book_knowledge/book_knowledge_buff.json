@@ -4,7 +4,7 @@
    "display_name": "i18n(fortify_stable:buffs.book_knowledge_buff.display_name)",
    "description": "i18n(fortify_stable:buffs.book_knowledge_buff.description)",
    "icon": "file(book_knowledge_buff.png)",
-   "duration": "99d",
+   "duration": "9d",
    "repeat_add_action": "renew_duration",
    "effect": "stonehearth:effects:buff_tonic_courage_added",
    "modifiers": {

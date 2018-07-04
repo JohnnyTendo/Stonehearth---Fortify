@@ -9,13 +9,13 @@
 			"categories": {
 				"book": {
 				"ordinal": 1,
-				"display_name": "i18n(fortify_stable:entities.resources.book.display_name)",
+				"display_name": "i18n(fortify_stable:entities.decorative.bookcase.category_unwritten)",
 				"icon": "/fortify_stable/entities/resources/book/book.png",
 				"filter": "book_unwritten"
       },
       "book_written": {
       "ordinal": 2,
-      "display_name": "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
+      "display_name": "i18n(fortify_stable:entities.decorative.bookcase.category_written)",
       "icon": "/fortify_stable/entities/consumables/book_knowledge/book_knowledge.png",
       "filter": "book_written"
       }

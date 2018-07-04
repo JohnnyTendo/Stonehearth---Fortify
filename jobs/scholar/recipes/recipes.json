@@ -10,16 +10,29 @@
          }
       },
 	  "documents": {
-         "name": "Documents",
+         "ordinal": 2,
+         "name": "Basics",
          "recipes": {
             "book": {
                "recipe": "file(book_recipe.json)"
             },
+			      "paper": {
+               "recipe": "file(paper_recipe.json)"
+            }
+         }
+      },
+	  "documents": {
+         "ordinal": 3,
+         "name": "Documents",
+         "recipes": {
             "book_knowledge": {
                "recipe": "file(book_knowledge_recipe.json)"
             },
-			      "paper": {
-               "recipe": "file(paper_recipe.json)"
+            "book_compassion": {
+               "recipe": "file(book_compassion_recipe.json)"
+            },
+            "book_inspiration": {
+               "recipe": "file(book_inspiration_recipe.json)"
             }
          }
       }

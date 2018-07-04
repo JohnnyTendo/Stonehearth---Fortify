@@ -1,8 +1,9 @@
 {
 	"info": {
-		"name": "Fortify",
-		"namespace": "fortify_stable",
-		"version": 3,
+		"name" : "Fortify",
+		"namespace" : "fortify",
+		"version" : 3,
+		"steam_file_id" : "1431142256",
 		"author" : "JohnnyTendo"
 	},
 	"default_locale": "en",
@@ -10,6 +11,8 @@
 		"ancile" : "file(entities/equipment/ancile/ancile.json)",
 		"book" : "file(entities/resources/book/book.json)",
 		"book_knowledge" : "file(entities/consumables/book_knowledge/book_knowledge.json)",
+		"book_compassion" : "file(entities/consumables/book_compassion/book_compassion.json)",
+		"book_inspiration" : "file(entities/consumables/book_inspiration/book_inspiration.json)",
 		"bookcase" : "file(entities/decorative/bookcase/bookcase.json)",
 		"bookcase:filter":"file(ui/data/input_box_filters_bookcase.json)",
 		"bridge" : "file(entities/decorative/bridge/bridge.json)",
@@ -37,6 +40,8 @@
 		"stone_portcullis_ornate" : "file(entities/construction/stone_portcullis_ornate/stone_portcullis_ornate.json)",
 		"wood_portcullis" : "file(entities/construction/wood_portcullis/wood_portcullis.json)",
 		"buffs:book_knowledge_buff": "file(data/buffs/book_knowledge/book_knowledge_buff.json)",
+		"buffs:book_compassion_buff": "file(data/buffs/book_compassion/book_compassion_buff.json)",
+		"buffs:book_inspiration_buff": "file(data/buffs/book_inspiration/book_inspiration_buff.json)",
 
 		"effects:fire_bowl_effect": "file(data/effects/fire_bowl_effect.json)",
 

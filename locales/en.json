@@ -3,7 +3,15 @@
 		"book_knowledge_buff": {
 				"description": "Packed with knowledge.",
 				"display_name": "Book of Knowledge"
-		    }
+		},
+		"book_inspiration_buff": {
+				"description": "Packed with creativity.",
+				"display_name": "Book of Inspiration"
+		},
+		"book_compassion_buff": {
+				"description": "Packed with Compassion.",
+				"display_name": "Book of Compassion"
+		}
 	},
 	"jobs": {
 		"scholar": {
@@ -19,7 +27,8 @@
 			},
 			"scholar_workbench": {
 				"display_name": "Scholar Workbench",
-				"description": "A Scholars desk."
+				"description": "A Scholars desk.",
+				"flavor": "Chaos is the order of genii"
 			}
 		}
 	},
@@ -27,8 +36,19 @@
 		"consumables": {
 			"book_knowledge": {
 				"description": "A book packed with knowledge.",
-				"display_name": "Book of Knowledge"
-		   }
+				"display_name": "Book of Knowledge",
+				"flavor": "More than a schoolbook."
+		   },
+	 		"book_inspiration": {
+	 				"description": "Packed with creativity.",
+	 				"display_name": "Book of Inspiration",
+					"flavor": "'I don't know what to say to this.' - Gawin the Librarian"
+	 		},
+	 		"book_compassion": {
+	 				"description": "Packed with Compassion.",
+	 				"display_name": "Book of Compassion",
+					"flavor": "A Hero's tale"
+	 		}
 		},
 		"construction": {
 			"drawbridge": {
@@ -71,7 +91,9 @@
 			"bookcase": {
 				"description": "A case for books.",
 				"display_name": "Bookcase",
-				"flavor": "Everyone looks smarter with books."
+				"flavor": "Everyone looks smarter with books.",
+				"category_written": "Written Books",
+				"category_unwritten": "Empty Books"
 		    },
 			"bridge": {
 				"description": "Basically unnecessary",
