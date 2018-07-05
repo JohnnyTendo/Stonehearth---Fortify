@@ -4,7 +4,8 @@
 		"namespace" : "fortify",
 		"version" : 3,
 		"steam_file_id" : "1431142256",
-		"author" : "JohnnyTendo"
+		"author" : "JohnnyTendo",
+		"is_building_template_mod" : true
 	},
 	"default_locale": "en",
 	"aliases" : {
