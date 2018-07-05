@@ -1,9 +1,9 @@
 {
    "type" : "recipe",
    "work_units" : 8,
-   "recipe_name" : "Trough",
-   "description" : "A little less mess.",
-   "flavor" : "Is it ever full?",
+   "recipe_name": "i18n(fortify:entities.decorative.trough.display_name)",
+   "description": "i18n(fortify:entities.decorative.trough.description)",
+   "flavor" : "i18n(fortify:entities.decorative.trough.flavor)",
    "portrait" : "/fortify/entities/decorative/trough/input_trough.png",
    "level_requirement" : 0,
    "ingredients": [

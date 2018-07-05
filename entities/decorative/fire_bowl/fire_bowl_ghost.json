@@ -22,8 +22,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify:entities.decoration.fire_bowl.display_name)",
-         "description": "i18n(fortify:entities.decoration.fire_bowl.description)",
+         "display_name": "i18n(fortify:entities.decorative.fire_bowl.display_name)",
+         "description": "i18n(fortify:entities.decorative.fire_bowl.description)",
          "icon": "file(fire_bowl.png)",
          "category": "decoration",
          "material_tags": "light_source crafted stone stockpile_decoration"
