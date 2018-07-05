@@ -11,7 +11,7 @@
          ]
       },
       "stonehearth:lamp": {
-         "light_effect": "fortify_stable:effects:fire_bowl_effect",
+         "light_effect": "fortify:effects:fire_bowl_effect",
          "light_origin": { "x": 0, "y": 3, "z": 0 }
       },
       "stonehearth:entity_forms": {

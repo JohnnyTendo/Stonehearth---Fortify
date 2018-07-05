@@ -3,18 +3,18 @@
    "enabled": true,
    "job_id": "scholar",
    "display_order": 3,
-   "alias": "fortify_stable:jobs:scholar",
-   "display_name": "i18n(fortify_stable:jobs.scholar.scholar_description.display_name)",
+   "alias": "fortify:jobs:scholar",
+   "display_name": "i18n(fortify:jobs.scholar.scholar_description.display_name)",
    "controller": "stonehearth:class:herbalist",
-   "description": "i18n(fortify_stable:jobs.scholar.scholar_description.description)",
-   "requirements": "i18n(fortify_stable:jobs.scholar.scholar_description.requirements)",
+   "description": "i18n(fortify:jobs.scholar.scholar_description.description)",
+   "requirements": "i18n(fortify:jobs.scholar.scholar_description.requirements)",
    "abilities": "file(herbalist_abilities)",
    "equipment": {
       "torso": "file(scholar_outfit/scholar_outfit.json)",
-      "mainhand": "fortify_stable:jobs:scholar:staff"
+      "mainhand": "fortify:jobs:scholar:staff"
    },
    "roles": "herbalist_job crafter",
-   "talisman_uri": "fortify_stable:jobs:scholar:talisman",
+   "talisman_uri": "fortify:jobs:scholar:talisman",
    "default_stance": "passive",
    "icon": "file(images/icon.png)",
    "promotion_activity_name": "promote_herbalist",
@@ -29,12 +29,12 @@
    ],
    "crafter": {
       "work_effect": "herbalist_grind",
-      "recipe_list": "/fortify_stable/jobs/scholar/recipes/recipes.json"
+      "recipe_list": "/fortify/jobs/scholar/recipes/recipes.json"
    },
    "workshop": {
-      "name": "i18n(fortify_stable:jobs.scholar.scholar_workbench.display_name)",
-      "description": "i18n(fortify_stable:jobs.scholar.scholar_workbench.description)",
-      "long_description": "i18n(fortify_stable:jobs.scholar.scholar_workbench.description)",
+      "name": "i18n(fortify:jobs.scholar.scholar_workbench.display_name)",
+      "description": "i18n(fortify:jobs.scholar.scholar_workbench.description)",
+      "long_description": "i18n(fortify:jobs.scholar.scholar_workbench.description)",
       "portrait": "file(scholar_workbench/scholar_workbench.png)",
       "workbench_type": "jobs:scholar:workbench",
       "skin_class": "herbalist",

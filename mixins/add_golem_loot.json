@@ -9,7 +9,7 @@
 					},
 					"items": {
 						"living_stone": {
-							"uri": "fortify_stable:living_stone",
+							"uri": "fortify:living_stone",
 							"weight": 10
 						}
 					}

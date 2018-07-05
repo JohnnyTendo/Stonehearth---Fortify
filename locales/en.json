@@ -13,7 +13,17 @@
 				"display_name": "Book of Compassion"
 		}
 	},
+	"category": {
+		"trough": {
+				"animal_feed": "Animal feed"
+		}
+	},
 	"jobs": {
+	  "blacksmith": {
+			"blacksmith_workbench": {
+				"category_00": "Components"
+			}
+		},
 		"scholar": {
 			"scholar_description": {
 				"display_name": "Scholar",
@@ -23,12 +33,15 @@
 			},
 			"scholar_staff": {
 				"display_name": "Scholar's Staff",
-				"description": "The Staff of a Scholar."
+				"description": "The Staff of a Scholar.",
+				"flavor": "Does he write with it?"
 			},
 			"scholar_workbench": {
 				"display_name": "Scholar Workbench",
 				"description": "A Scholars desk.",
-				"flavor": "Chaos is the order of genii"
+				"flavor": "Chaos is the order of genii",
+				"category_00": "Basics",
+				"category_01": "Documents"
 			}
 		}
 	},
@@ -110,16 +123,26 @@
 				"display_name": "Cids Sword",
 				"flavor": "Great man, Greatsword."
 			},
+			"fire_bowl": {
+				"description": "A greater source of light.",
+				"display_name": "Firebowl",
+				"flavor": "To brighten up your nights."
+			},
 			"palisade": {
 				"description": "Low-Tech Town protection.",
 				"display_name": "Palisade",
 				"flavor": "To keep 'em out."
-		    },
-				"parapet": {
-					"description": "Or just call it railing.",
-					"display_name": "Parapet",
-					"flavor": "Don't worry to fall anymore."
-			    }
+		  },
+			"parapet": {
+				"description": "Or just call it railing.",
+				"display_name": "Parapet",
+				"flavor": "Don't worry to fall anymore."
+			},
+			"trough": {
+				"description": "A little less mess.",
+				"display_name": "Trough",
+				"flavor": "Is it ever full?"
+			}
 		},
 		"equipment": {
 			"ancile": {

@@ -45,8 +45,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.equipment.stonegolem_armor.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.stonegolem_armor.description)",
+         "display_name": "i18n(fortify:entities.equipment.stonegolem_armor.display_name)",
+         "description": "i18n(fortify:entities.equipment.stonegolem_armor.description)",
          "icon": "file(stonegolem_armor.png)",
          "category": "armor",
          "material_tags": "stone armor heavy_armor stockpile_equipment"

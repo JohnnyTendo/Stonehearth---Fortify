@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.consumables.book_knowledge.display_name)",
-         "description": "i18n(fortify_stable:entities.consumables.book_knowledge.description)",
+         "display_name": "i18n(fortify:entities.consumables.book_knowledge.display_name)",
+         "description": "i18n(fortify:entities.consumables.book_knowledge.description)",
          "icon": "file(book_knowledge.png)",
          "category": "book book_written consumable"
       }

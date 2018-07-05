@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 10,
-   "recipe_name" : "i18n(fortify_stable:jobs.scholar.scholar_staff.display_name)",
-   "description" : "i18n(fortify_stable:jobs.scholar.scholar_staff.description)",
-   "flavor" : "i18n(fortify_stable:jobs.scholar.scholar_staff.flavor)",
-   "portrait" : "/fortify_stable/jobs/scholar/scholar_staff/scholar_staff.png",
+   "recipe_name" : "i18n(fortify:jobs.scholar.scholar_staff.display_name)",
+   "description" : "i18n(fortify:jobs.scholar.scholar_staff.description)",
+   "flavor" : "i18n(fortify:jobs.scholar.scholar_staff.flavor)",
+   "portrait" : "/fortify/jobs/scholar/scholar_staff/scholar_staff.png",
    "workshop": "stonehearth:carpenter:toolbench",
    "level_requirement" : 5,
    "ingredients": [
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:jobs:scholar:talisman"
+         "item":"fortify:jobs:scholar:talisman"
       }
   ]
 }

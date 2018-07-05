@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.consumables.book_compassion.display_name)",
-         "description": "i18n(fortify_stable:entities.consumables.book_compassion.description)",
+         "display_name": "i18n(fortify:entities.consumables.book_compassion.display_name)",
+         "description": "i18n(fortify:entities.consumables.book_compassion.description)",
          "icon": "file(book_compassion.png)",
          "category": "book book_written consumable"
       }

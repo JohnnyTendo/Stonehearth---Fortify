@@ -50,8 +50,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.equipment.ancile.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.ancile.description)",
+         "display_name": "i18n(fortify:entities.equipment.ancile.display_name)",
+         "description": "i18n(fortify:entities.equipment.ancile.description)",
          "icon": "file(ancile.png)",
          "category": "armor",
          "material_tags": "iron armor heavy_armor stockpile_equipment"

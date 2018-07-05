@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 20,
-   "recipe_name" : "i18n(fortify_stable:entities.resources.rope.display_name)",
-   "description" : "i18n(fortify_stable:entities.resources.rope.description)",
-   "flavor" : "i18n(fortify_stable:entities.resources.rope.flavor)",
-   "portrait" : "/fortify_stable/entities/resources/rope/rope.png",
+   "recipe_name" : "i18n(fortify:entities.resources.rope.display_name)",
+   "description" : "i18n(fortify:entities.resources.rope.description)",
+   "flavor" : "i18n(fortify:entities.resources.rope.flavor)",
+   "portrait" : "/fortify/entities/resources/rope/rope.png",
     "workshop": "stonehearth:weaver:spinning_wheel",
    "level_requirement" : 2, 
    "ingredients": [
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:rope"
+         "item":"fortify:rope"
       }
   ]
 }

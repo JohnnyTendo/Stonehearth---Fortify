@@ -37,7 +37,7 @@
          "type": "input_crate",
          "capacity": 18,
          "render_contents": true,
-         "filter_list": "fortify_stable/ui/data/input_box_filters_bookcase.json",
+         "filter_list": "fortify/ui/data/input_box_filters_bookcase.json",
          "is_single_filter": true
       },
       "region_collision_shape": {

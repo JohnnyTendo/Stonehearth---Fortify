@@ -11,7 +11,7 @@
       },
 	  "documents": {
          "ordinal": 2,
-         "name": "Basics",
+         "name": "i18n(fortify:jobs.scholar.scholar_workbench.category_00)",
          "recipes": {
             "book": {
                "recipe": "file(book_recipe.json)"
@@ -23,7 +23,7 @@
       },
 	  "documents": {
          "ordinal": 3,
-         "name": "Documents",
+         "name": "i18n(fortify:jobs.scholar.scholar_workbench.category_01)",
          "recipes": {
             "book_knowledge": {
                "recipe": "file(book_knowledge_recipe.json)"

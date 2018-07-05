@@ -32,7 +32,7 @@
       },
       "stonehearth:consumable": {
          "script": "stonehearth:consumables:scripts:buff_town",
-         "buff": "fortify_stable:buffs:book_compassion_buff"
+         "buff": "fortify:buffs:book_compassion_buff"
       },
       "stonehearth:catalog": {
          "material_tags": "book book_written consumable stockpile_consumable"

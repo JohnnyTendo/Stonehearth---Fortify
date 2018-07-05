@@ -13,7 +13,7 @@
          "default": "stonehearth:effects:talisman_glow"
       },
       "stonehearth:promotion_talisman": {
-         "job": "fortify_stable:jobs:scholar"
+         "job": "fortify:jobs:scholar"
       }
    },
    "entity_data": {
@@ -28,8 +28,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:jobs.scholar.scholar_staff.display_name)",
-         "description": "i18n(fortify_stable:jobs.scholar.scholar_staff.description)",
+         "display_name": "i18n(fortify:jobs.scholar.scholar_staff.display_name)",
+         "description": "i18n(fortify:jobs.scholar.scholar_staff.description)",
          "icon": "file(scholar_staff.png)",
          "is_item": true,
          "category": "tools",

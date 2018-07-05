@@ -7,10 +7,10 @@
          ]
       },
       "render_info": {
-         "animation_table": "fortify_stable/data/portcullis/portcullis.json"
+         "animation_table": "fortify/data/portcullis/portcullis.json"
       },
       "effect_list": {
-         "default": "fortify_stable/data/portcullis/effects/idle.json",
+         "default": "fortify/data/portcullis/effects/idle.json",
          "initial_pose_animation": "idle.json"
       },
       "stonehearth:fixture": {

@@ -24,8 +24,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.resources.paper.display_name)",
-         "description": "i18n(fortify_stable:entities.resources.paper.description)",
+         "display_name": "i18n(fortify:entities.resources.paper.display_name)",
+         "description": "i18n(fortify:entities.resources.paper.description)",
          "icon": "file(paper.png)",
          "is_item": true,
          "category": "refined",

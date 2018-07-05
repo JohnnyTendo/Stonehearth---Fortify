@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 8,
-   "recipe_name" : "i18n(fortify_stable:entities.construction.hatch.display_name)",
-   "description": "i18n(fortify_stable:entities.construction.hatch.description)",
-   "flavor" : "i18n(fortify_stable:entities.construction.hatch.flavor",
-   "portrait" : "/fortify_stable/entities/construction/hatch2/hatch2.png",
+   "recipe_name" : "i18n(fortify:entities.construction.hatch.display_name)",
+   "description": "i18n(fortify:entities.construction.hatch.description)",
+   "flavor" : "i18n(fortify:entities.construction.hatch.flavor",
+   "portrait" : "/fortify/entities/construction/hatch2/hatch2.png",
    "workshop": "stonehearth:carpenter:workbench", 
    "level_requirement" : 2, 
    "ingredients": [
@@ -19,7 +19,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:hatch2"
+         "item":"fortify:hatch2"
       }
   ]
 }

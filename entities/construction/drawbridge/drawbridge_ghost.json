@@ -1,7 +1,7 @@
 {
 	"type" : "entity",
     "mixins": [
-	"fortify_stable/mixins/door/drawbridge_ghost.json",
+	"fortify/mixins/door/drawbridge_ghost.json",
 	"stonehearth:mixins:placed_object"
 	],
     "components": {
@@ -25,9 +25,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "description": "i18n(fortify_stable:entities.construction.drawbridge.description)",
+         "description": "i18n(fortify:entities.construction.drawbridge.description)",
          "icon": "file(drawbridge.png)",
-         "display_name": "i18n(fortify_stable:entities.construction.drawbridge.display_name)",
+         "display_name": "i18n(fortify:entities.construction.drawbridge.display_name)",
 		 "material_tags": "wood defense crafted portal gate stockpile_defense",
          "category": "door"
       }

@@ -7,10 +7,10 @@
          ]
       },
       "render_info": {
-         "animation_table": "fortify_stable/data/drawbridge/drawbridge.json"
+         "animation_table": "fortify/data/drawbridge/drawbridge.json"
       },
       "effect_list": {
-         "default": "fortify_stable/data/drawbridge/effects/idle.json",
+         "default": "fortify/data/drawbridge/effects/idle.json",
          "initial_pose_animation": "idle.json"
       },
       "stonehearth:fixture": {

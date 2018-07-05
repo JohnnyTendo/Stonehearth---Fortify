@@ -20,9 +20,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-	     "description": "i18n(fortify_stable:entities.decorative.bridge_ornate.description)",
+	     "description": "i18n(fortify:entities.decorative.bridge_ornate.description)",
          "icon": "file(bridge_ornate.png)",
-         "display_name": "i18n(fortify_stable:entities.decorative.bridge_ornate.display_name)",
+         "display_name": "i18n(fortify:entities.decorative.bridge_ornate.display_name)",
          "material_tags": "wood decoration crafted stockpile_decoration",
 		 "category": "decoration"
       }

@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 20,
-   "recipe_name" : "i18n(fortify_stable:entities.resources.paper.display_name)",
-   "description" : "i18n(fortify_stable:entities.resources.paper.description)",
-   "flavor" : "i18n(fortify_stable:entities.resources.paper.flavor)",
-   "portrait" : "/fortify_stable/entities/resources/paper/paper.png",
+   "recipe_name" : "i18n(fortify:entities.resources.paper.display_name)",
+   "description" : "i18n(fortify:entities.resources.paper.description)",
+   "flavor" : "i18n(fortify:entities.resources.paper.flavor)",
+   "portrait" : "/fortify/entities/resources/paper/paper.png",
    "level_requirement" : 1,
    "ingredients": [
       {
@@ -14,7 +14,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:paper"
+         "item":"fortify:paper"
       }
   ]
 }

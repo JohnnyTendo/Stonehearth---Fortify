@@ -8,10 +8,10 @@
          ]
       },
       "render_info": {
-         "animation_table": "fortify_stable/data/hatch2/hatch2.json"
+         "animation_table": "fortify/data/hatch2/hatch2.json"
       },
       "effect_list": {
-         "default": "fortify_stable/data/hatch2/effects/idle.json",
+         "default": "fortify/data/hatch2/effects/idle.json",
          "initial_pose_animation": "idle.json"
       },
       "stonehearth:fixture": {

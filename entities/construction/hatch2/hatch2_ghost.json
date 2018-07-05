@@ -1,7 +1,7 @@
 {
 	"type" : "entity",
     "mixins": [
-	"fortify_stable/mixins/door/hatch2_ghost.json",
+	"fortify/mixins/door/hatch2_ghost.json",
 	"stonehearth:mixins:placed_object"
 	],
     "components": {
@@ -26,9 +26,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "description": "i18n(fortify_stable:entities.construction.hatch.description)",
+         "description": "i18n(fortify:entities.construction.hatch.description)",
          "icon": "file(hatch2.png)",
-         "display_name": "i18n(fortify_stable:entities.construction.hatch.display_name)",
+         "display_name": "i18n(fortify:entities.construction.hatch.display_name)",
 		 "material_tags": "wood defense crafted portal gate stockpile_defense",
          "category": "door"
       }

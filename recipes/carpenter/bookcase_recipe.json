@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 14,
-   "recipe_name" : "i18n(fortify_stable:entities.decorative.bookcase.display_name)",
-   "description": "i18n(fortify_stable:entities.decorative.bookcase.description)",
-   "flavor" : "i18n(fortify_stable:entities.decorative.bookcase.flavor)",
-   "portrait" : "/fortify_stable/entities/decorative/bookcase/bookcase.png",
+   "recipe_name" : "i18n(fortify:entities.decorative.bookcase.display_name)",
+   "description": "i18n(fortify:entities.decorative.bookcase.description)",
+   "flavor" : "i18n(fortify:entities.decorative.bookcase.flavor)",
+   "portrait" : "/fortify/entities/decorative/bookcase/bookcase.png",
    "workshop": "stonehearth:carpenter:toolbench",
    "level_requirement" : 3,
    "ingredients": [
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:bookcase"
+         "item":"fortify:bookcase"
       }
   ]
 }

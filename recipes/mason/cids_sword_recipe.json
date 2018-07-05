@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 12,
-   "recipe_name" : "i18n(fortify_stable:entities.decorative.cids_sword.display_name)",
-   "description" : "i18n(fortify_stable:entities.decorative.cids_sword.description)",
-   "flavor" : "i18n(fortify_stable:entities.decorative.cids_sword.flavor)",
-   "portrait" : "/fortify_stable/entities/decorative/cids_sword/cids_sword.png", 
+   "recipe_name" : "i18n(fortify:entities.decorative.cids_sword.display_name)",
+   "description" : "i18n(fortify:entities.decorative.cids_sword.description)",
+   "flavor" : "i18n(fortify:entities.decorative.cids_sword.flavor)",
+   "portrait" : "/fortify/entities/decorative/cids_sword/cids_sword.png", 
    "workshop": "stonehearth:mason:pedestal",    
    "level_requirement" : 3, 
    "ingredients": [
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:cids_sword"
+         "item":"fortify:cids_sword"
       }
   ]
 }

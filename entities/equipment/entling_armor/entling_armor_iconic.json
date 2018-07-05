@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.equipment.entling_armor.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.entling_armor.description)",
+         "display_name": "i18n(fortify:entities.equipment.entling_armor.display_name)",
+         "description": "i18n(fortify:entities.equipment.entling_armor.description)",
          "icon": "file(entling_armor.png)",
          "is_item": true,
          "category": "armor"

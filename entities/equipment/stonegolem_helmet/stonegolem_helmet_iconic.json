@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-		 "display_name": "i18n(fortify_stable:entities.equipment.stonegolem_helmet.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.stonegolem_helmet.description)",
+		 "display_name": "i18n(fortify:entities.equipment.stonegolem_helmet.display_name)",
+         "description": "i18n(fortify:entities.equipment.stonegolem_helmet.description)",
          "icon": "file(stonegolem_helmet.png)",
          "is_item": true,
          "category": "armor"

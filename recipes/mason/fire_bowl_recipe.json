@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 12,
-   "recipe_name" : "i18n(fortify_stable:entities.decorative.fire_bowl.display_name)",
-   "description" : "i18n(fortify_stable:entities.decorative.fire_bowl.description)",
-   "flavor" : "i18n(fortify_stable:entities.decorative.fire_bowl.flavor)",
-   "portrait" : "/fortify_stable/entities/decorative/fire_bowl/fire_bowl.png",
+   "recipe_name" : "i18n(fortify:entities.decorative.fire_bowl.display_name)",
+   "description" : "i18n(fortify:entities.decorative.fire_bowl.description)",
+   "flavor" : "i18n(fortify:entities.decorative.fire_bowl.flavor)",
+   "portrait" : "/fortify/entities/decorative/fire_bowl/fire_bowl.png",
    "workshop": "stonehearth:mason:pedestal",
    "level_requirement" : 2,
    "ingredients": [
@@ -19,7 +19,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:fire_bowl"
+         "item":"fortify:fire_bowl"
       }
   ]
 }

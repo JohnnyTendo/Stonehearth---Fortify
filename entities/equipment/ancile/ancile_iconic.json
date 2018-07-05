@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:entities.equipment.ancile.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.ancile.description)",
+         "display_name": "i18n(fortify:entities.equipment.ancile.display_name)",
+         "description": "i18n(fortify:entities.equipment.ancile.description)",
          "icon": "file(ancile.png)",
          "is_item": true,
          "category": "armor"

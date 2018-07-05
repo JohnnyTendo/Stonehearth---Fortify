@@ -19,8 +19,8 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(fortify_stable:jobs.scholar.scholar_workbench.display_name)",
-         "description": "i18n(fortify_stable:jobs.scholar.scholar_workbench.description)",
+         "display_name": "i18n(fortify:jobs.scholar.scholar_workbench.display_name)",
+         "description": "i18n(fortify:jobs.scholar.scholar_workbench.description)",
          "icon": "file(scholar_workbench.png)",
          "category": "workshops",
          "material_tags": "tool stockpile_tool"

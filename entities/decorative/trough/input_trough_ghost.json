@@ -22,8 +22,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "Trough",
-         "description": "A little less mess.",
+         "display_name": "i18n(fortify:entities.decorative.trough.display_name)",
+         "description": "i18n(fortify:entities.decorative.trough.description)",
          "icon": "file(input_trough.png)",
          "category": "storage",
          "material_tags": "wood containers crafted furniture stockpile_furniture"

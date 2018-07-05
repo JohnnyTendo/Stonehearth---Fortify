@@ -31,7 +31,7 @@
          "type": "input_crate",
          "capacity": 12,
          "render_contents": true,
-         "filter_list": "fortify_stable/ui/data/input_box_filters_trough.json",
+         "filter_list": "fortify/ui/data/input_box_filters_trough.json",
          "is_single_filter": true
       }
    },
@@ -47,8 +47,8 @@
          }
       },
 	  "stonehearth:catalog": {
-         "display_name": "Trough",
-         "description": "A little less mess.",
+      "display_name": "i18n(fortify:entities.decorative.trough.display_name)",
+      "description": "i18n(fortify:entities.decorative.trough.description)",
          "icon": "file(input_trough.png)",
          "category": "storage",
          "material_tags": "wood containers crafted furniture stockpile_furniture"

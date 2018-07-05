@@ -2,11 +2,11 @@
    "type" : "recipe",
    "effort" : 200,
    "work_units" : 15,
-   "recipe_name" : "i18n(fortify_stable:entities.equipment.ancile.display_name)",
-   "description" : "i18n(fortify_stable:entities.equipment.ancile.description)",
-   "flavor" : "i18n(fortify_stable:entities.equipment.ancile.flavor)",
-   "portrait" : "/fortify_stable/entities/equipment/ancile/ancile.png", 
-   "level_requirement" : 5, 
+   "recipe_name" : "i18n(fortify:entities.equipment.ancile.display_name)",
+   "description" : "i18n(fortify:entities.equipment.ancile.description)",
+   "flavor" : "i18n(fortify:entities.equipment.ancile.flavor)",
+   "portrait" : "/fortify/entities/equipment/ancile/ancile.png",
+   "level_requirement" : 5,
    "ingredients": [
       {
          "uri" : "stonehearth:refined:steel_ingot",
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:ancile.json"
+         "item":"fortify:ancile"
       }
   ]
 }

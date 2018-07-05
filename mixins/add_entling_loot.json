@@ -9,7 +9,7 @@
 					},
 					"items": {
 						"living_wood": {
-							"uri": "fortify_stable:living_wood",
+							"uri": "fortify:living_wood",
 							"weight": 10
 						}
 					}

@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-		 "display_name": "i18n(fortify_stable:entities.equipment.entling_helmet.display_name)",
-         "description": "i18n(fortify_stable:entities.equipment.entling_helmet.description)",
+		 "display_name": "i18n(fortify:entities.equipment.entling_helmet.display_name)",
+         "description": "i18n(fortify:entities.equipment.entling_helmet.description)",
          "icon": "file(entling_helmet.png)",
          "is_item": true,
          "category": "armor"

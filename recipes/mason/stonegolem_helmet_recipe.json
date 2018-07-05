@@ -1,21 +1,21 @@
 {
    "type" : "recipe",
    "work_units" : 20,
-   "recipe_name" : "i18n(fortify_stable:entities.equipment.stonegolem_helmet.display_name)",
-   "description" : "i18n(fortify_stable:entities.equipment.stonegolem_helmet.description)",
-   "flavor" : "i18n(fortify_stable:entities.equipment.stonegolem_helmet.flavor)",
-   "portrait" : "/fortify_stable/entities/equipment/stonegolem_helmet/stonegolem_helmet.png", 
+   "recipe_name" : "i18n(fortify:entities.equipment.stonegolem_helmet.display_name)",
+   "description" : "i18n(fortify:entities.equipment.stonegolem_helmet.description)",
+   "flavor" : "i18n(fortify:entities.equipment.stonegolem_helmet.flavor)",
+   "portrait" : "/fortify/entities/equipment/stonegolem_helmet/stonegolem_helmet.png", 
    "workshop": "stonehearth:mason:pedestal",
    "level_requirement" : 6, 
    "ingredients": [
 	  {
-		 "uri" : "fortify_stable:living_stone",
+		 "uri" : "fortify:living_stone",
 		 "count" : 3
 	  }
   ],
   "produces": [
       {
-         "item":"fortify_stable:stonegolem_helmet"
+         "item":"fortify:stonegolem_helmet"
       }
   ]
 }

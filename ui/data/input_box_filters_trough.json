@@ -2,7 +2,7 @@
    "type": "index",
 	"stockpile": {
 		"Animal feed": {
-			"display_name": "Animal feed",
+			"display_name": "i18n(fortify:category.trough.animal_feed)",
 			"filter": "animal_feed",
 			"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
 			"ordinal": 1,

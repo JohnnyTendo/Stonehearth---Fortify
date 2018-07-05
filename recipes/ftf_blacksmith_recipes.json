@@ -1,7 +1,7 @@
 {
    "craftable_recipes": {
       "refined": {
-         "name": "Components",
+         "name": "i18n(fortify:jobs.blacksmith.blacksmith_workbench.category_00)",
          "recipes": {
             "chain": {
                "recipe": "file(blacksmith/chain_recipe.json)"
@@ -9,7 +9,7 @@
          }
       },
 	  "armor": {
-         "name": "Armor",
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.armor_name)",
          "recipes": {
             "ancile": {
                "recipe": "file(blacksmith/ancile_recipe.json)"

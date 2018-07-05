@@ -1,21 +1,21 @@
 {
    "type" : "recipe",
    "work_units" : 20,
-   "recipe_name" : "i18n(fortify_stable:entities.equipment.entling_armor.display_name)",
-   "description" : "i18n(fortify_stable:entities.equipment.entling_armor.description)",
-   "flavor" : "i18n(fortify_stable:entities.equipment.entling_armor.flavor)",
-   "portrait" : "/fortify_stable/entities/equipment/entling_armor/entling_armor.png", 
+   "recipe_name" : "i18n(fortify:entities.equipment.entling_armor.display_name)",
+   "description" : "i18n(fortify:entities.equipment.entling_armor.description)",
+   "flavor" : "i18n(fortify:entities.equipment.entling_armor.flavor)",
+   "portrait" : "/fortify/entities/equipment/entling_armor/entling_armor.png", 
    "workshop": "stonehearth:carpenter:toolbench",
    "level_requirement" : 6, 
    "ingredients": [
 	  {
-		 "uri" : "fortify_stable:living_wood",
+		 "uri" : "fortify:living_wood",
 		 "count" : 6
 	  }
   ],
   "produces": [
       {
-         "item":"fortify_stable:entling_armor"
+         "item":"fortify:entling_armor"
       }
   ]
 }

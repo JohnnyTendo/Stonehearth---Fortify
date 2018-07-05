@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 16,
-   "recipe_name" : "i18n(fortify_stable:entities.decorative.bridge_ornate.display_name)",
-   "description" : "i18n(fortify_stable:entities.decorative.bridge_ornate.description)",
-   "flavor" : "i18n(fortify_stable:entities.decorative.bridge_ornate.flavor)",
-   "portrait" : "/fortify_stable/entities/decorative/bridge_ornate/bridge_ornate.png",
+   "recipe_name" : "i18n(fortify:entities.decorative.bridge_ornate.display_name)",
+   "description" : "i18n(fortify:entities.decorative.bridge_ornate.description)",
+   "flavor" : "i18n(fortify:entities.decorative.bridge_ornate.flavor)",
+   "portrait" : "/fortify/entities/decorative/bridge_ornate/bridge_ornate.png",
    "workshop": "stonehearth:carpenter:toolbench",
    "level_requirement" : 5, 
    "ingredients": [
@@ -19,7 +19,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:bridge_ornate"
+         "item":"fortify:bridge_ornate"
       }
   ]
 }

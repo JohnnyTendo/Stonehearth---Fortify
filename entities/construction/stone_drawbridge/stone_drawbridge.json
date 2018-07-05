@@ -2,7 +2,7 @@
    "type": "entity",
    "mixins" : [
 		"file(stone_drawbridge_ghost.json)",
-		"fortify_stable/mixins/door/drawbridge.json",
+		"fortify/mixins/door/drawbridge.json",
 		"stonehearth:mixins:basic_destructable_door"
    ],
    "components" : {
@@ -42,7 +42,7 @@
                      "uri": "stonehearth:resources:stone:hunk_of_stone"
                   },
 				  "chain": {
-                     "uri": "fortify_stable:chain"
+                     "uri": "fortify:chain"
                   }
                }
             }

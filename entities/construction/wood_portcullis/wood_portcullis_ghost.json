@@ -1,7 +1,7 @@
 {
 	"type" : "entity",
     "mixins": [
-	"fortify_stable/mixins/door/portcullis_ghost.json",
+	"fortify/mixins/door/portcullis_ghost.json",
 	"stonehearth:mixins:placed_object"
 	],
     "components": {
@@ -25,9 +25,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "description": "i18n(fortify_stable:entities.construction.wood_portcullis.description)",
+         "description": "i18n(fortify:entities.construction.wood_portcullis.description)",
          "icon": "file(wood_portcullis.png)",
-         "display_name": "i18n(fortify_stable:entities.construction.wood_portcullis.display_name)",
+         "display_name": "i18n(fortify:entities.construction.wood_portcullis.display_name)",
          "material_tags": "wood defense crafted portal gate stockpile_defense",
          "category": "door"
       }

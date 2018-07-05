@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 4,
-   "recipe_name" : "i18n(fortify_stable:entities.decorative.palisade.display_name)",
-   "description" : "i18n(fortify_stable:entities.decorative.palisade.description)",
-   "flavor" : "i18n(fortify_stable:entities.decorative.palisade.flavor)",
-   "portrait" : "/fortify_stable/entities/decorative/palisade/palisade.png",
+   "recipe_name" : "i18n(fortify:entities.decorative.palisade.display_name)",
+   "description" : "i18n(fortify:entities.decorative.palisade.description)",
+   "flavor" : "i18n(fortify:entities.decorative.palisade.flavor)",
+   "portrait" : "/fortify/entities/decorative/palisade/palisade.png",
    "workshop": "stonehearth:carpenter:workbench", 
    "level_requirement" : 1, 
    "ingredients": [
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:palisade"
+         "item":"fortify:palisade"
       }
   ]
 }

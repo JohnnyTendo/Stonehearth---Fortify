@@ -1,15 +1,15 @@
 {
    "type" : "recipe",
    "work_units" : 20,
-   "recipe_name" : "i18n(fortify_stable:entities.consumables.book_inspiration.display_name)",
-   "description" : "i18n(fortify_stable:entities.consumables.book_inspiration.description)",
-   "flavor" : "i18n(fortify_stable:entities.consumables.book_inspiration.flavor)",
-   "portrait" : "/fortify_stable/entities/consumables/book_inspiration/book_inspiration.png",
-    "workshop": "fortify_stable:jobs:scholar:workbench",
+   "recipe_name" : "i18n(fortify:entities.consumables.book_inspiration.display_name)",
+   "description" : "i18n(fortify:entities.consumables.book_inspiration.description)",
+   "flavor" : "i18n(fortify:entities.consumables.book_inspiration.flavor)",
+   "portrait" : "/fortify/entities/consumables/book_inspiration/book_inspiration.png",
+    "workshop": "fortify:jobs:scholar:workbench",
    "level_requirement" : 1,
    "ingredients": [
       {
-         "uri": "fortify_stable:book",
+         "uri": "fortify:book",
          "count" : 1
       },
 	  {
@@ -19,7 +19,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:book_inspiration"
+         "item":"fortify:book_inspiration"
       }
   ]
 }

@@ -1,10 +1,10 @@
 {
    "type" : "recipe",
    "work_units" : 40,
-   "recipe_name" : "i18n(fortify_stable:entities.resources.chain.display_name)",
-   "description" : "i18n(fortify_stable:entities.resources.chain.description)",
-   "flavor" : "i18n(fortify_stable:entities.resources.chain.flavor)",
-   "portrait" : "/fortify_stable/entities/resources/chain/chain.png",
+   "recipe_name" : "i18n(fortify:entities.resources.chain.display_name)",
+   "description" : "i18n(fortify:entities.resources.chain.description)",
+   "flavor" : "i18n(fortify:entities.resources.chain.flavor)",
+   "portrait" : "/fortify/entities/resources/chain/chain.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement" : 2, 
    "ingredients": [
@@ -15,10 +15,10 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:chain"
+         "item":"fortify:chain"
       },
 	  {
-         "item":"fortify_stable:chain"
+         "item":"fortify:chain"
       }
   ]
 }

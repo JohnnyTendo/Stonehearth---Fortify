@@ -2,7 +2,7 @@
    "type": "entity",
    "mixins" : [
 		"file(hatch_ghost.json)",
-		"fortify_stable/mixins/door/hatch.json"
+		"fortify/mixins/door/hatch.json"
    ],
    "components" : {
       "stonehearth:entity_forms" : {

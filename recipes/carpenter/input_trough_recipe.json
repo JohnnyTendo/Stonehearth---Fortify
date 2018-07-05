@@ -4,7 +4,7 @@
    "recipe_name" : "Trough",
    "description" : "A little less mess.",
    "flavor" : "Is it ever full?",
-   "portrait" : "/fortify_stable/entities/decorative/trough/input_trough.png",
+   "portrait" : "/fortify/entities/decorative/trough/input_trough.png",
    "level_requirement" : 0,
    "ingredients": [
       {
@@ -14,7 +14,7 @@
   ],
   "produces": [
       {
-         "item":"fortify_stable:trough"
+         "item":"fortify:trough"
       }
   ]
 }
