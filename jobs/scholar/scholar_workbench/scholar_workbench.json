@@ -22,7 +22,7 @@
          ]
       },
       "stonehearth:workshop": {
-         "job_alias": "stonehearth:jobs:herbalist"
+         "job_alias": "fortify:jobs:scholar"
       },
       "stonehearth:entity_forms": {
          "ghost_form": "file(scholar_workbench_ghost.json)",
