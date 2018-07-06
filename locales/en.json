@@ -61,7 +61,13 @@
 	 				"description": "Packed with Compassion.",
 	 				"display_name": "Book of Compassion",
 					"flavor": "A Hero's tale"
-	 		}
+	 		},
+			"catapult_ammunition": {
+						"display_name" : "Catapult Ammunition",
+						"description" : "Heavy Metal, used in Catapults",
+						"shot_description" : "Take this!",
+						"shot_name" : "Catapult Ammunition"
+			}
 		},
 		"construction": {
 			"drawbridge": {
@@ -170,6 +176,12 @@
 				"display_name": "Stonegolem Helmet",
 				"flavor": "Out of heart-stone"
 			}
+		},
+		"turrets": {
+			 "catapult": {
+					"display_name" : "Catapult",
+					"description" : "A Heavy and longed ranged Catapult with slow but powerfull shots"
+			 }
 		},
 		"resources": {
 			"book": {
