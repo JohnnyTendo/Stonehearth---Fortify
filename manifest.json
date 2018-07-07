@@ -33,6 +33,7 @@
 		"trough" : "file(entities/decorative/trough/input_trough.json)",
 		"living_stone" : "file(entities/resources/living_stone/living_stone.json)",
 		"living_wood" : "file(entities/resources/living_wood/living_wood.json)",
+		"oculus_skylight": "file(entities/construction/oculus_skylight/oculus_skylight.json)",
 		"palisade" : "file(entities/decorative/palisade/palisade.json)",
 		"parapet" : "file(entities/decorative/parapet/parapet.json)",
 		"paper" : "file(entities/resources/paper/paper.json)",

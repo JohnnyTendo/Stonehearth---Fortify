@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 1, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(oculus_skylight.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.construction.blue_clay_window_frame.blue_clay_window_frame_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.construction.blue_clay_window_frame.blue_clay_window_frame_ghost.description)",
+         "icon": "file(oculus_skylight.png)",
+         "category": "decoration",
+         "material_tags": "clay portal crafted window stockpile_portal"
+      }
+   }
+}
