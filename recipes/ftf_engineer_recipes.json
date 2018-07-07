@@ -1,0 +1,12 @@
+{
+   "craftable_recipes": {
+      "ranged_weapons": {
+         "name": "i18n(i18n(stonehearth:jobs.engineer.recipes.ranged_weapons_name)",
+         "recipes": {
+            "catapult_turret": {
+               "recipe": "file(engineer/catapult_turret_recipe.json)"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "effort" : 200,
+   "work_units" : 20,
+   "recipe_name" : "i18n(fortify:entities.turrets.catapult.display_name)",
+   "description" : "i18n(fortify:entities.turrets.catapult.description)",
+   "flavor" : "i18n(fortify:entities.turrets.catapult.flavor)",
+   "portrait" : "/fortify/entities/turrets/catapult_turret/catapult_turret/catapult_turret.png",
+   "level_requirement" : 5,
+   "ingredients": [
+     {
+        "uri" : "stonehearth:refined:steel_ingot",
+        "count" : 4
+     },
+     {
+        "material" : "wood resource",
+        "count" : 6
+     }
+  ],
+  "produces": [
+      {
+         "item":"fortify:catapult"
+      }
+  ]
+}

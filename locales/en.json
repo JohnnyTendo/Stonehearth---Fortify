@@ -21,7 +21,8 @@
 	"jobs": {
 	  "blacksmith": {
 			"blacksmith_workbench": {
-				"category_00": "Components"
+				"category_00": "Components",
+				"category_01": "Ammunition"
 			}
 		},
 		"scholar": {
@@ -180,7 +181,8 @@
 		"turrets": {
 			 "catapult": {
 					"display_name" : "Catapult",
-					"description" : "A Heavy and longed ranged Catapult with slow but powerfull shots"
+					"description" : "A superior weapon to eradicate your enemys",
+					"flavor" : "'This might hurt a little.'"
 			 }
 		},
 		"resources": {

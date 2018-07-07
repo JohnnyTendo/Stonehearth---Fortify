@@ -15,6 +15,14 @@
                "recipe": "file(blacksmith/ancile_recipe.json)"
             }
          }
-      }
+      },
+      "ammunition": {
+           "name": "i18n(fortify:jobs.blacksmith.blacksmith_workbench.category_01)",
+           "recipes": {
+              "catapult_ammunition": {
+                 "recipe": "file(blacksmith/catapult_ammunition_recipe.json)"
+              }
+           }
+        }
    }
 }

@@ -60,6 +60,7 @@
 		"stonehearth/jobs/index.json": "file(jobs/index.json)",
 		"stonehearth/data/ui/start_menu.json": "file(ui/start_menu.json)",
 		"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(recipes/ftf_blacksmith_recipes.json)",
+		"stonehearth/jobs/engineer/recipes/recipes.json" : "file(recipes/ftf_engineer_recipes.json)",
 		"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/ftf_carpenter_recipes.json)",
 		"stonehearth/jobs/mason/recipes/recipes.json" : "file(recipes/ftf_mason_recipes.json)",
 		"stonehearth/jobs/weaver/recipes/recipes.json" : "file(recipes/ftf_weaver_recipes.json)",
