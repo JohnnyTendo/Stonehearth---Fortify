@@ -182,6 +182,13 @@
 			 "catapult": {
 					"display_name" : "Catapult",
 					"description" : "A superior weapon to eradicate your enemys",
+					"flavor" : "'If only stone was flameable...'"
+			 }
+		},
+		"traps": {
+			 "spike_trap": {
+					"display_name" : "Spike Trap",
+					"description" : "More then a little poke for your enemys",
 					"flavor" : "'This might hurt a little.'"
 			 }
 		},

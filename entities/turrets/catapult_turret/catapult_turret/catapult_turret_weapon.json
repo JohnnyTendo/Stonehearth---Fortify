@@ -12,8 +12,8 @@
          "range": 130,
          "projectile_speed": 90,
          "projectile_uri": "fortify:weapons:catapult_ammunition",
-         "projectile_start_offset": { "x": 0, "y": 2, "z": 0 },
-         "projectile_end_offset": { "x": 0, "y": 2, "z": 0 }
+         "projectile_start_offset": { "x": 0, "y": 5, "z": 0 },
+         "projectile_end_offset": { "x": 0, "y": 0, "z": 0 }
       },
       "stonehearth:combat:ranged_attacks": [
          {

@@ -1,0 +1,75 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "close.json",
+         "loop": false
+      },
+      "sound": {
+         "type": "sound_effect",
+         "loop": false,
+         "start_time": 50,
+         "min_distance": 30,
+         "max_instances": 6,
+         "falloff" : 4.5,
+         "volume": 70,
+         "track" : "stonehearth:sounds:clamp_trap_trigger"
+      },
+      "bite1": {
+         "type": "cubemitter",
+         "start_time": 333,
+         "end_time": 343,
+         "loop": false,
+         "cubemitter": "particles/sparks/clamp_trap_spark.cubemitter.json",
+         "transforms": { "x": 0, "y": 2.2, "z": 0,
+            "rx": 90,
+            "ry": 90,
+            "rz": 0
+         }
+      },
+      "sound": {
+         "type": "sound_effect",
+         "start_time": 333,
+         "min_distance": 27,
+         "falloff" : 3.14,
+         "volume": 60,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:clamp_trap_01",
+               "stonehearth:sounds:clamp_trap_02",
+               "stonehearth:sounds:clamp_trap_03"
+            ]
+         }   
+      },
+      "bite2": {
+         "type": "cubemitter",
+         "start_time": 666,
+         "end_time": 676,
+         "loop": false,
+         "cubemitter": "particles/sparks/clamp_trap_spark.cubemitter.json",
+         "transforms": { "x": 0, "y": 3, "z": 0,
+            "rx": 90,
+            "ry": 90,
+            "rz": 0
+         }
+      },
+      "sound": {
+         "type": "sound_effect",
+         "start_time": 666,
+         "min_distance": 27,
+         "falloff" : 3.14,
+         "volume": 60,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:clamp_trap_01",
+               "stonehearth:sounds:clamp_trap_02",
+               "stonehearth:sounds:clamp_trap_03"
+            ]
+         }
+      }           
+   }
+}

@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(catapult_fire_ammunition.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 30,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortify:entities.consumables.catapult_fire_ammunition.display_name)",
+         "description": "i18n(fortify:entities.consumables.catapult_fire_ammunition.description)",
+         "icon": "file(catapult_fire_ammunition.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": "stockpile_weapon catapult_ammunition"
+      }
+   }
+}

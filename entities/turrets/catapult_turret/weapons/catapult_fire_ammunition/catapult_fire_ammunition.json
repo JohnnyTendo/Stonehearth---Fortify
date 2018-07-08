@@ -1,0 +1,25 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(catapult_fire_ammunition.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:projectile": {},
+      "effect_list": {
+         "default": "stonehearth:effects:arrow:fire"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(fortify:entities.consumables.catapult_fire_ammunition.shot_name)",
+         "description":  "i18n(fortify:entities.consumables.catapult_fire_ammunition.shot_description)"
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "type" : "recipe",
+   "effort" : 200,
+   "work_units" : 20,
+   "recipe_name" : "i18n(fortify:entities.traps.spike_trap.display_name)",
+   "description" : "i18n(fortify:entities.traps.spike_trap.description)",
+   "flavor" : "i18n(fortify:entities.traps.spike_trap.flavor)",
+   "portrait" : "/fortify/entities/turrets/spike_trap/spike_trap.png",
+   "level_requirement" : 4,
+   "ingredients": [
+     {
+        "uri" : "stonehearth:refined:iron_ingot",
+        "count" : 3
+     },
+     {
+        "material" : "stone resource",
+        "count" : 4
+     }
+  ],
+  "produces": [
+      {
+         "item":"fortify:spike_trap"
+      }
+  ]
+}

@@ -7,6 +7,14 @@
                "recipe": "file(engineer/catapult_turret_recipe.json)"
             }
          }
+      },
+      "traps": {
+         "name": "i18n(stonehearth:jobs.engineer.recipes.traps_name)",
+         "recipes": {
+            "spike_trap": {
+               "recipe": "file(spike_trap_recipe.json)"
+            }
+         }
       }
    }
 }
