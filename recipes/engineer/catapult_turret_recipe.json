@@ -6,6 +6,7 @@
    "description" : "i18n(fortify:entities.turrets.catapult.description)",
    "flavor" : "i18n(fortify:entities.turrets.catapult.flavor)",
    "portrait" : "/fortify/entities/turrets/catapult_turret/catapult_turret/catapult_turret.png",
+   "workshop": "stonehearth:engineer:workbench",
    "level_requirement" : 5,
    "ingredients": [
      {

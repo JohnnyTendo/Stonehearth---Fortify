@@ -6,6 +6,7 @@
    "description" : "i18n(fortify:entities.equipment.ancile.description)",
    "flavor" : "i18n(fortify:entities.equipment.ancile.flavor)",
    "portrait" : "/fortify/entities/equipment/ancile/ancile.png",
+   "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement" : 5,
    "ingredients": [
       {

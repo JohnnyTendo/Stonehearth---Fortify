@@ -6,6 +6,7 @@
    "description" : "i18n(fortify:entities.consumables.catapult_ammunition.description)",
    "flavor" : "i18n(fortify:entities.consumables.catapult_ammunition.shot_description)",
    "portrait" : "/fortify/entities/turrets/catapult_turret/consumable/catapult_ammunition/catapult_ammunition.png",
+   "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement" : 4,
    "ingredients": [
      {

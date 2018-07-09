@@ -6,6 +6,7 @@
    "description" : "i18n(fortify:entities.traps.spike_trap.description)",
    "flavor" : "i18n(fortify:entities.traps.spike_trap.flavor)",
    "portrait" : "/fortify/entities/turrets/spike_trap/spike_trap.png",
+   "workshop": "stonehearth:engineer:workbench",
    "level_requirement" : 4,
    "ingredients": [
      {

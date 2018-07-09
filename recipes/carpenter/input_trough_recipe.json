@@ -5,6 +5,7 @@
    "description": "i18n(fortify:entities.decorative.trough.description)",
    "flavor" : "i18n(fortify:entities.decorative.trough.flavor)",
    "portrait" : "/fortify/entities/decorative/trough/input_trough.png",
+   "workshop": "stonehearth:carpenter:workbench",
    "level_requirement" : 0,
    "ingredients": [
       {

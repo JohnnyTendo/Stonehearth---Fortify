@@ -1,4 +1,5 @@
 {
+   "type": "mixin",
 	"components": {
 		"stonehearth:loot_drops": {
 			"entries": {
