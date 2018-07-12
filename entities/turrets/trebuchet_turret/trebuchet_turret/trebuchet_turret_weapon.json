@@ -1,0 +1,28 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 600,
+         "base_ranged_damage": 600,
+         "range": 300,
+         "projectile_speed": 80,
+         "projectile_uri": "fortify:weapons:catapult_ammunition",
+         "projectile_start_offset": { "x": 0, "y": 5, "z": 0 },
+         "projectile_end_offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "fire",
+            "effect": "fire",
+            "active_frame": 70,
+            "cooldown": 5000,
+            "priority": 0
+         }
+      ]
+   }
+}

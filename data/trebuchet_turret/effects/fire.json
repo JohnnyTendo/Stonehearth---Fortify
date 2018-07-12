@@ -1,0 +1,30 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "fire.json",
+         "loop": false
+      },
+      "catapult_ammunition" : {
+         "type": "attach_item_effect",
+         "start_time": 0,
+         "end_time": 69,
+         "item": "catapult:consumable:weapons:catapult_ammunition",
+         "bone": "sheep"
+      },
+      "hide_ammunition" : {
+         "type": "hide_bone",
+         "start_time": 70,
+         "end_time": 80,
+         "bone": "sheep"
+      },
+      "hide_rope" : {
+         "type": "hide_bone",
+         "start_time": 70,
+         "end_time": 80,
+         "bone": "rope01"
+      }
+   }
+}

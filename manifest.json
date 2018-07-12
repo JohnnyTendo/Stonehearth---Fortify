@@ -22,6 +22,8 @@
 		"cids_sword" : "file(entities/decorative/cids_sword/cids_sword.json)",
 		"catapult": "file(entities/turrets/catapult_turret/catapult_turret/catapult_turret.json)",
 		"turret:catapult_turret:weapon"  : "file(entities/turrets/catapult_turret/catapult_turret/catapult_turret_weapon.json)",
+		"trebuchet": "file(entities/turrets/trebuchet_turret/trebuchet_turret/trebuchet_turret.json)",
+		"turret:trebuchet_turret:weapon"  : "file(entities/turrets/trebuchet_turret/trebuchet_turret/trebuchet_turret_weapon.json)",
 		"weapons:catapult_ammunition": "file(entities/turrets/catapult_turret/weapons/catapult_ammunition/catapult_ammunition.json)",
 		"consumable:catapult_ammunition": "file(entities/turrets/catapult_turret/consumable/catapult_ammunition/catapult_ammunition.json)",
 		"weapons:catapult_fire_ammunition": "file(entities/turrets/catapult_turret/weapons/catapult_fire_ammunition/catapult_fire_ammunition.json)",
