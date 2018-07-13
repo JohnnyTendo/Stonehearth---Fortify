@@ -8,9 +8,6 @@
                "file(living_stone.qb)"
             ]
          }
-      },
-      "stonehearth:stacks": {
-         "max_stacks": 60
       }
    },
    "entity_data": {

@@ -2,9 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "render_info": {
-         "material": "materials/shiny.material.json"
-      },
       "model_variants": {
          "default": {
             "models": [

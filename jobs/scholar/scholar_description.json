@@ -8,7 +8,7 @@
    "controller": "stonehearth:class:herbalist",
    "description": "i18n(fortify:jobs.scholar.scholar_description.description)",
    "requirements": "i18n(fortify:jobs.scholar.scholar_description.requirements)",
-   "abilities": "file(herbalist_abilities)",
+   "abilities": "file(scholar_abilities)",
    "equipment": {
       "torso": "file(scholar_outfit/scholar_outfit.json)",
       "mainhand": "fortify:jobs:scholar:staff"

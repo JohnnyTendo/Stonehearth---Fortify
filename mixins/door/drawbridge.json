@@ -5,6 +5,11 @@
 	     "placeable_on_walls": true,
          "placeable_on_ground": true
       },
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:toggle_lock"
+         ]
+      },
       "sensor_list": {
          "sensors": {
             "door_sensor": {

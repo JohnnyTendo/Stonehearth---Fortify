@@ -1,8 +1,8 @@
 {
 	"type" : "entity",
-    "mixins": [
-	"fortify/mixins/door/drawbridge_ghost.json",
-	"stonehearth:mixins:placed_object"
+  "mixins": [
+		"fortify/mixins/door/drawbridge_ghost.json",
+		"stonehearth:mixins:placed_object"
 	],
     "components": {
       "model_variants": {
@@ -12,15 +12,9 @@
             ]
          }
       },
-	  "effect_list": {
-         "default": "file(/data/drawbridge/animations/idle.json)"
-      },
 	  "mob": {
            "model_origin": { "x": 0, "y": 0, "z": 0 },
-           "region_origin": { "x": 0, "y": 0, "z": 0 },
-           "align_to_grid": [
-              "x"
-           ]
+           "region_origin": { "x": 0, "y": 0, "z": 0 }
         }
    },
    "entity_data": {

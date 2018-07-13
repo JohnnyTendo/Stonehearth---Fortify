@@ -40,10 +40,6 @@
             }
          }
       },
-      "effect_list": {
-         "default": "file(/data/portcullis/effects/idle.json)",
-         "initial_pose_animation": "idle.json"
-      },
 	  "stonehearth:bone_transform": {
          "bones": [
             "ATTOVERCOG",
@@ -51,14 +47,14 @@
 			"gate",
 			"root"
          ]
-      }	  
+      }
    },
    "entity_data" : {
 		"stonehearth:net_worth" : {
 			"value_in_gold" : 160,
 			"rarity" : "common",
 			"shop_info" : {
-				"buyable" : false,   
+				"buyable" : false,
 				"sellable" : true,
 				"shopkeeper_level" : 1,
 				"shopkeeper_type" : "caravan"

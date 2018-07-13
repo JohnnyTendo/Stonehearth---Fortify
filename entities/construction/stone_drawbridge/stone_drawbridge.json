@@ -11,11 +11,6 @@
          "ghost_form" : "file(stone_drawbridge_ghost.json)",
 		 "placeable_on_ground" : true
       },
-      "stonehearth:commands": {
-         "commands": [
-            "stonehearth:commands:toggle_lock"
-         ]
-      },
 	  "stonehearth:attributes": {
          "max_health": {
             "type": "basic",
@@ -48,10 +43,6 @@
             }
          }
       },
-	  "effect_list": {
-         "default": "file(/data/drawbridge/effects/idle.json)",
-         "initial_pose_animation": "idle.json",
-      },
 	  "stonehearth:bone_transform": {
          "bones": [
 		 "ATTOVERCOG",
@@ -81,14 +72,14 @@
 		 "rightChainEnd",
 		 "root"
          ]
-      }	  
+      }
    },
    "entity_data" : {
 		"stonehearth:net_worth" : {
 			"value_in_gold" : 240,
 			"rarity" : "common",
 			"shop_info" : {
-				"buyable" : false,   
+				"buyable" : false,
 				"sellable" : true,
 				"shopkeeper_level" : 1,
 				"shopkeeper_type" : "caravan"

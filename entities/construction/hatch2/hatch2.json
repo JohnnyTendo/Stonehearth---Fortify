@@ -2,7 +2,7 @@
    "type": "entity",
    "mixins" : [
 		"file(hatch2_ghost.json)",
-		"fortify/mixins/door/hatch2.json"
+		"fortify/mixins/door/hatch.json"
    ],
    "components" : {
       "stonehearth:entity_forms" : {
@@ -31,27 +31,29 @@
             }
          }
       },
-	  "effect_list": {
+  		"render_info": {
+  			 "animation_table": "fortify/data/hatch2/hatch2.json"
+  		},
+	    "effect_list": {
          "default": "file(/data/hatch2/effects/idle.json)",
          "initial_pose_animation": "idle.json",
       },
-	  "stonehearth:bone_transform": {
+	    "stonehearth:bone_transform": {
          "bones": [
-		 "ATTOVERCOG",
-		 "frame",
-		 "leftDoor",
-		 "rightDoor",
-		 "root"
-
+		         "ATTOVERCOG",
+		         "frame",
+		         "leftDoor",
+		         "rightDoor",
+		         "root"
          ]
-      }	  
+      }
    },
    "entity_data" : {
 		"stonehearth:net_worth" : {
 			"value_in_gold" : 10,
 			"rarity" : "common",
 			"shop_info" : {
-				"buyable" : false,   
+				"buyable" : false,
 				"sellable" : true,
 				"shopkeeper_level" : 1,
 				"shopkeeper_type" : "caravan"
