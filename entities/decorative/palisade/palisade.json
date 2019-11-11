@@ -32,6 +32,12 @@
                }
             }
          }
+      },
+      "stonehearth:attributes": {
+         "menace": {
+            "type": "basic",
+            "value": 25
+         }
       }
    },
    "entity_data" : {
@@ -39,7 +45,7 @@
 			"value_in_gold" : 10,
 			"rarity" : "common",
 			"shop_info" : {
-				"buyable" : false,   
+				"buyable" : false,
 				"sellable" : true,
 				"shopkeeper_level" : 1,
 				"shopkeeper_type" : "caravan"
